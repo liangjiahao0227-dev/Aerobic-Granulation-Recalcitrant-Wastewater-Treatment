@@ -1,0 +1,1155 @@
+# Report for collapsed table: /mnt/ilustre/isanger_workspaceMetaasv/20230411/Faprotax_b6og_4o5vm6127kh88d57undj2h_75585_069047/FaprotaxPredict/result/function_prediction.txt
+# Collapsed table generated on: 2023.04.11 09:13:44
+# Original table: /mnt/ilustre/isanger_workspaceMetaasv/20230411/Faprotax_b6og_4o5vm6127kh88d57undj2h_75585_069047/otu_table.xls
+# Details:
+#  Original classical table contained 2284 rows and 5 columns
+#  After filtering rows & columns based on indices, obtained a table containing 2284 rows & 4 columns
+#  After (potentially) filtering out records based on name, obtained a table comprising 2284 records & 4 data entries per record
+# Used command:
+#   /mnt/ilustre/users/isanger/app/bioinfo/meta/FAPROTAX_1.2.1//collapse_table.py -i /mnt/ilustre/isanger_workspaceMetaasv/20230411/Faprotax_b6og_4o5vm6127kh88d57undj2h_75585_069047/otu_table.xls -o /mnt/ilustre/isanger_workspaceMetaasv/20230411/Faprotax_b6og_4o5vm6127kh88d57undj2h_75585_069047/FaprotaxPredict/result/function_prediction.txt -g /mnt/ilustre/users/isanger/app/bioinfo/meta/FAPROTAX_1.2.1//FAPROTAX.txt -v -d taxonomy -c '#' -r /mnt/ilustre/isanger_workspaceMetaasv/20230411/Faprotax_b6og_4o5vm6127kh88d57undj2h_75585_069047/FaprotaxPredict/result/report.txt --column_names_are_in last_comment_line
+#
+# Summary of group assignments:
+#   methanotrophy: 12 records
+#   acetoclastic_methanogenesis: 0 records
+#   methanogenesis_by_disproportionation_of_methyl_groups: 0 records
+#   methanogenesis_using_formate: 1 records
+#   methanogenesis_by_CO2_reduction_with_H2: 12 records
+#   methanogenesis_by_reduction_of_methyl_compounds_with_H2: 3 records
+#   hydrogenotrophic_methanogenesis: 15 records
+#   methanogenesis: 17 records
+#   methanol_oxidation: 0 records
+#   methylotrophy: 14 records
+#   aerobic_ammonia_oxidation: 3 records
+#   aerobic_nitrite_oxidation: 1 records
+#   nitrification: 4 records
+#   sulfate_respiration: 9 records
+#   sulfur_respiration: 1 records
+#   dark_sulfite_oxidation: 0 records
+#   sulfite_respiration: 1 records
+#   thiosulfate_respiration: 0 records
+#   respiration_of_sulfur_compounds: 10 records
+#   arsenate_detoxification: 0 records
+#   arsenate_respiration: 0 records
+#   dissimilatory_arsenate_reduction: 0 records
+#   arsenite_oxidation_detoxification: 0 records
+#   arsenite_oxidation_energy_yielding: 0 records
+#   dissimilatory_arsenite_oxidation: 0 records
+#   anammox: 1 records
+#   nitrate_denitrification: 5 records
+#   nitrite_denitrification: 5 records
+#   nitrous_oxide_denitrification: 5 records
+#   denitrification: 5 records
+#   chitinolysis: 1 records
+#   knallgas_bacteria: 0 records
+#   dark_hydrogen_oxidation: 13 records
+#   nitrogen_fixation: 6 records
+#   nitrate_ammonification: 0 records
+#   nitrite_ammonification: 0 records
+#   nitrite_respiration: 7 records
+#   cellulolysis: 0 records
+#   xylanolysis: 0 records
+#   dark_sulfide_oxidation: 4 records
+#   dark_sulfur_oxidation: 1 records
+#   dark_thiosulfate_oxidation: 1 records
+#   dark_oxidation_of_sulfur_compounds: 4 records
+#   manganese_oxidation: 0 records
+#   manganese_respiration: 0 records
+#   ligninolysis: 0 records
+#   fermentation: 62 records
+#   aerobic_chemoheterotrophy: 112 records
+#   invertebrate_parasites: 0 records
+#   human_pathogens_septicemia: 0 records
+#   human_pathogens_pneumonia: 8 records
+#   human_pathogens_nosocomia: 0 records
+#   human_pathogens_meningitis: 0 records
+#   human_pathogens_gastroenteritis: 0 records
+#   human_pathogens_diarrhea: 0 records
+#   human_pathogens_all: 12 records
+#   fish_parasites: 0 records
+#   human_gut: 2 records
+#   mammal_gut: 2 records
+#   animal_parasites_or_symbionts: 16 records
+#   plant_pathogen: 0 records
+#   oil_bioremediation: 0 records
+#   aromatic_hydrocarbon_degradation: 1 records
+#   aromatic_compound_degradation: 10 records
+#   aliphatic_non_methane_hydrocarbon_degradation: 1 records
+#   hydrocarbon_degradation: 13 records
+#   dark_iron_oxidation: 0 records
+#   iron_respiration: 0 records
+#   nitrate_respiration: 19 records
+#   nitrate_reduction: 22 records
+#   nitrogen_respiration: 20 records
+#   fumarate_respiration: 0 records
+#   intracellular_parasites: 22 records
+#   chlorate_reducers: 5 records
+#   predatory_or_exoparasitic: 49 records
+#   chloroplasts: 0 records
+#   cyanobacteria: 11 records
+#   anoxygenic_photoautotrophy_H2_oxidizing: 0 records
+#   anoxygenic_photoautotrophy_S_oxidizing: 0 records
+#   anoxygenic_photoautotrophy_Fe_oxidizing: 0 records
+#   anoxygenic_photoautotrophy: 0 records
+#   oxygenic_photoautotrophy: 11 records
+#   photoautotrophy: 11 records
+#   aerobic_anoxygenic_phototrophy: 0 records
+#   photoheterotrophy: 1 records
+#   phototrophy: 12 records
+#   plastic_degradation: 0 records
+#   ureolysis: 4 records
+#   reductive_acetogenesis: 1 records
+#   chemoheterotrophy: 188 records
+#
+# Loaded 90 groups comprising 8236 members (4983 unique members)
+# Established 776 assignments of records to groups
+# 312 out of 2284 records (13.6602 %) were assigned to at least one group
+# 1972 out of 2284 records (86.3398 %) could not be assigned to any group (leftovers)
+# 52 groups were represented (i.e. associated with at least one record)
+# Detailed group assignments are listed below
+
+# methanotrophy (12 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__Methylocystis; s__unclassified_g__Methylocystis
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__Methylocystis; s__unclassified_g__Methylocystis
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Candidatus_Methylospira; s__unclassified_g__Candidatus_Methylospira
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylocaldum; s__Methylococcaceae_bacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylocaldum; s__unclassified_g__Methylocaldum
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylocaldum; s__uncultured_bacterium_g__Methylocaldum
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylocaldum; s__uncultured_bacterium_g__Methylocaldum
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methyloparacoccus; s__Methyloparacoccus_murrellii
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylomonadaceae; g__Crenothrix; s__uncultured_bacterium_g__Crenothrix
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylomonadaceae; g__Methylomonas; s__unclassified_g__Methylomonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylomonadaceae; g__Methylosarcina; s__unclassified_g__Methylosarcina
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylomonadaceae; g__Methylovulum; s__uncultured_gamma_proteobacterium_g__Methylovulum
+
+
+# acetoclastic_methanogenesis (0 records):
+
+
+# methanogenesis_by_disproportionation_of_methyl_groups (0 records):
+
+
+# methanogenesis_using_formate (1 records):
+    d__Archaea; k__norank_d__Archaea; p__Halobacterota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanospirillaceae; g__Methanospirillum; s__unclassified_g__Methanospirillum
+
+
+# methanogenesis_by_CO2_reduction_with_H2 (12 records):
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__uncultured_archaeon_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__unclassified_g__Methanobrevibacter
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__unclassified_g__Methanobrevibacter
+    d__Archaea; k__norank_d__Archaea; p__Halobacterota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanoregulaceae; g__Methanolinea; s__unclassified_g__Methanolinea
+    d__Archaea; k__norank_d__Archaea; p__Halobacterota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanospirillaceae; g__Methanospirillum; s__unclassified_g__Methanospirillum
+    d__Archaea; k__norank_d__Archaea; p__Halobacterota; c__Methanomicrobia; o__Methanomicrobiales; f__unclassified_o__Methanomicrobiales; g__unclassified_o__Methanomicrobiales; s__unclassified_o__Methanomicrobiales
+
+
+# methanogenesis_by_reduction_of_methyl_compounds_with_H2 (3 records):
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanosphaera; s__unclassified_g__Methanosphaera
+    d__Archaea; k__norank_d__Archaea; p__Thermoplasmatota; c__Thermoplasmata; o__Methanomassiliicoccales; f__Methanomassiliicoccaceae; g__Methanomassiliicoccus; s__uncultured_archaeon_g__Methanomassiliicoccus
+    d__Archaea; k__norank_d__Archaea; p__Thermoplasmatota; c__Thermoplasmata; o__Methanomassiliicoccales; f__Methanomassiliicoccaceae; g__norank_f__Methanomassiliicoccaceae; s__uncultured_archaeon_g__norank_f__Methanomassiliicoccaceae
+
+
+# hydrogenotrophic_methanogenesis (15 records):
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__uncultured_archaeon_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__unclassified_g__Methanobrevibacter
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__unclassified_g__Methanobrevibacter
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanosphaera; s__unclassified_g__Methanosphaera
+    d__Archaea; k__norank_d__Archaea; p__Halobacterota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanoregulaceae; g__Methanolinea; s__unclassified_g__Methanolinea
+    d__Archaea; k__norank_d__Archaea; p__Halobacterota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanospirillaceae; g__Methanospirillum; s__unclassified_g__Methanospirillum
+    d__Archaea; k__norank_d__Archaea; p__Halobacterota; c__Methanomicrobia; o__Methanomicrobiales; f__unclassified_o__Methanomicrobiales; g__unclassified_o__Methanomicrobiales; s__unclassified_o__Methanomicrobiales
+    d__Archaea; k__norank_d__Archaea; p__Thermoplasmatota; c__Thermoplasmata; o__Methanomassiliicoccales; f__Methanomassiliicoccaceae; g__Methanomassiliicoccus; s__uncultured_archaeon_g__Methanomassiliicoccus
+    d__Archaea; k__norank_d__Archaea; p__Thermoplasmatota; c__Thermoplasmata; o__Methanomassiliicoccales; f__Methanomassiliicoccaceae; g__norank_f__Methanomassiliicoccaceae; s__uncultured_archaeon_g__norank_f__Methanomassiliicoccaceae
+
+
+# methanogenesis (17 records):
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__uncultured_archaeon_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__unclassified_g__Methanobrevibacter
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__unclassified_g__Methanobrevibacter
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanosphaera; s__unclassified_g__Methanosphaera
+    d__Archaea; k__norank_d__Archaea; p__Halobacterota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanoregulaceae; g__Methanolinea; s__unclassified_g__Methanolinea
+    d__Archaea; k__norank_d__Archaea; p__Halobacterota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanospirillaceae; g__Methanospirillum; s__unclassified_g__Methanospirillum
+    d__Archaea; k__norank_d__Archaea; p__Halobacterota; c__Methanomicrobia; o__Methanomicrobiales; f__unclassified_o__Methanomicrobiales; g__unclassified_o__Methanomicrobiales; s__unclassified_o__Methanomicrobiales
+    d__Archaea; k__norank_d__Archaea; p__Halobacterota; c__Methanosarcinia; o__Methanosarciniales; f__Methanosaetaceae; g__Methanosaeta; s__uncultured_Methanosarcinales_archaeon_g__Methanosaeta
+    d__Archaea; k__norank_d__Archaea; p__Halobacterota; c__Methanosarcinia; o__Methanosarciniales; f__Methanosaetaceae; g__Methanosaeta; s__uncultured_Methanosarcinales_archaeon_g__Methanosaeta
+    d__Archaea; k__norank_d__Archaea; p__Thermoplasmatota; c__Thermoplasmata; o__Methanomassiliicoccales; f__Methanomassiliicoccaceae; g__Methanomassiliicoccus; s__uncultured_archaeon_g__Methanomassiliicoccus
+    d__Archaea; k__norank_d__Archaea; p__Thermoplasmatota; c__Thermoplasmata; o__Methanomassiliicoccales; f__Methanomassiliicoccaceae; g__norank_f__Methanomassiliicoccaceae; s__uncultured_archaeon_g__norank_f__Methanomassiliicoccaceae
+
+
+# methanol_oxidation (0 records):
+
+
+# methylotrophy (14 records):
+    d__Archaea; k__norank_d__Archaea; p__Thermoplasmatota; c__Thermoplasmata; o__Methanomassiliicoccales; f__Methanomassiliicoccaceae; g__Methanomassiliicoccus; s__uncultured_archaeon_g__Methanomassiliicoccus
+    d__Archaea; k__norank_d__Archaea; p__Thermoplasmatota; c__Thermoplasmata; o__Methanomassiliicoccales; f__Methanomassiliicoccaceae; g__norank_f__Methanomassiliicoccaceae; s__uncultured_archaeon_g__norank_f__Methanomassiliicoccaceae
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__Methylocystis; s__unclassified_g__Methylocystis
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__Methylocystis; s__unclassified_g__Methylocystis
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Candidatus_Methylospira; s__unclassified_g__Candidatus_Methylospira
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylocaldum; s__Methylococcaceae_bacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylocaldum; s__unclassified_g__Methylocaldum
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylocaldum; s__uncultured_bacterium_g__Methylocaldum
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylocaldum; s__uncultured_bacterium_g__Methylocaldum
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methyloparacoccus; s__Methyloparacoccus_murrellii
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylomonadaceae; g__Crenothrix; s__uncultured_bacterium_g__Crenothrix
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylomonadaceae; g__Methylomonas; s__unclassified_g__Methylomonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylomonadaceae; g__Methylosarcina; s__unclassified_g__Methylosarcina
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylomonadaceae; g__Methylovulum; s__uncultured_gamma_proteobacterium_g__Methylovulum
+
+
+# aerobic_ammonia_oxidation (3 records):
+    d__Archaea; k__norank_d__Archaea; p__Crenarchaeota; c__Nitrososphaeria; o__Nitrososphaerales; f__Nitrososphaeraceae; g__norank_f__Nitrososphaeraceae; s__unclassified_g__norank_f__Nitrososphaeraceae
+    d__Archaea; k__norank_d__Archaea; p__Crenarchaeota; c__Nitrososphaeria; o__Nitrososphaerales; f__Nitrososphaeraceae; g__norank_f__Nitrososphaeraceae; s__unclassified_g__norank_f__Nitrososphaeraceae
+    d__Archaea; k__norank_d__Archaea; p__Crenarchaeota; c__Nitrososphaeria; o__Nitrososphaerales; f__Nitrososphaeraceae; g__norank_f__Nitrososphaeraceae; s__unidentified_archaeon_g__norank_f__Nitrososphaeraceae
+
+
+# aerobic_nitrite_oxidation (1 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Chloroflexi; c__Chloroflexia; o__Thermomicrobiales; f__Thermomicrobiaceae; g__Nitrolancea; s__Nitrolancea_hollandica_Lb
+
+
+# nitrification (4 records):
+    d__Archaea; k__norank_d__Archaea; p__Crenarchaeota; c__Nitrososphaeria; o__Nitrososphaerales; f__Nitrososphaeraceae; g__norank_f__Nitrososphaeraceae; s__unclassified_g__norank_f__Nitrososphaeraceae
+    d__Archaea; k__norank_d__Archaea; p__Crenarchaeota; c__Nitrososphaeria; o__Nitrososphaerales; f__Nitrososphaeraceae; g__norank_f__Nitrososphaeraceae; s__unclassified_g__norank_f__Nitrososphaeraceae
+    d__Archaea; k__norank_d__Archaea; p__Crenarchaeota; c__Nitrososphaeria; o__Nitrososphaerales; f__Nitrososphaeraceae; g__norank_f__Nitrososphaeraceae; s__unidentified_archaeon_g__norank_f__Nitrososphaeraceae
+    d__Bacteria; k__norank_d__Bacteria; p__Chloroflexi; c__Chloroflexia; o__Thermomicrobiales; f__Thermomicrobiaceae; g__Nitrolancea; s__Nitrolancea_hollandica_Lb
+
+
+# sulfate_respiration (9 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Desulfobacterota; c__Desulfobulbia; o__Desulfobulbales; f__Desulfobulbaceae; g__Desulfobulbus; s__unclassified_g__Desulfobulbus
+    d__Bacteria; k__norank_d__Bacteria; p__Desulfobacterota; c__Desulfovibrionia; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__unclassified_g__Desulfovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Desulfobacterota; c__Desulfovibrionia; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__unclassified_g__Desulfovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Desulfobacterota; c__Desulfovibrionia; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__unclassified_g__Desulfovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Desulfobacterota; c__Desulfovibrionia; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__unclassified_g__Desulfovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Desulfobacterota; c__Desulfovibrionia; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__unclassified_g__Desulfovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Desulfobacterota; c__Desulfovibrionia; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__unclassified_g__Desulfovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Desulfobacterota; c__Syntrophobacteria; o__Syntrophobacterales; f__Syntrophobacteraceae; g__Syntrophobacter; s__unclassified_g__Syntrophobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Desulfobacterota; c__Syntrophobacteria; o__Syntrophobacterales; f__Syntrophobacteraceae; g__Syntrophobacter; s__unclassified_g__Syntrophobacter
+
+
+# sulfur_respiration (1 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Campilobacterota; c__Campylobacteria; o__Campylobacterales; f__Sulfurospirillaceae; g__Sulfurospirillum; s__Sulfurospirillum_cavolei
+
+
+# dark_sulfite_oxidation (0 records):
+
+
+# sulfite_respiration (1 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Desulfobacterota; c__Desulfobulbia; o__Desulfobulbales; f__Desulfobulbaceae; g__Desulfobulbus; s__unclassified_g__Desulfobulbus
+
+
+# thiosulfate_respiration (0 records):
+
+
+# respiration_of_sulfur_compounds (10 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Campilobacterota; c__Campylobacteria; o__Campylobacterales; f__Sulfurospirillaceae; g__Sulfurospirillum; s__Sulfurospirillum_cavolei
+    d__Bacteria; k__norank_d__Bacteria; p__Desulfobacterota; c__Desulfobulbia; o__Desulfobulbales; f__Desulfobulbaceae; g__Desulfobulbus; s__unclassified_g__Desulfobulbus
+    d__Bacteria; k__norank_d__Bacteria; p__Desulfobacterota; c__Desulfovibrionia; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__unclassified_g__Desulfovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Desulfobacterota; c__Desulfovibrionia; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__unclassified_g__Desulfovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Desulfobacterota; c__Desulfovibrionia; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__unclassified_g__Desulfovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Desulfobacterota; c__Desulfovibrionia; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__unclassified_g__Desulfovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Desulfobacterota; c__Desulfovibrionia; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__unclassified_g__Desulfovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Desulfobacterota; c__Desulfovibrionia; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__unclassified_g__Desulfovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Desulfobacterota; c__Syntrophobacteria; o__Syntrophobacterales; f__Syntrophobacteraceae; g__Syntrophobacter; s__unclassified_g__Syntrophobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Desulfobacterota; c__Syntrophobacteria; o__Syntrophobacterales; f__Syntrophobacteraceae; g__Syntrophobacter; s__unclassified_g__Syntrophobacter
+
+
+# arsenate_detoxification (0 records):
+
+
+# arsenate_respiration (0 records):
+
+
+# dissimilatory_arsenate_reduction (0 records):
+
+
+# arsenite_oxidation_detoxification (0 records):
+
+
+# arsenite_oxidation_energy_yielding (0 records):
+
+
+# dissimilatory_arsenite_oxidation (0 records):
+
+
+# anammox (1 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Planctomycetota; c__Brocadiae; o__Brocadiales; f__Brocadiaceae; g__Candidatus_Brocadia; s__uncultured_Candidatus_Brocadia_sp.
+
+
+# nitrate_denitrification (5 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+
+
+# nitrite_denitrification (5 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+
+
+# nitrous_oxide_denitrification (5 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+
+
+# denitrification (5 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+
+
+# chitinolysis (1 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Xanthomonadaceae; g__Lysobacter; s__unclassified_g__Lysobacter
+
+
+# knallgas_bacteria (0 records):
+
+
+# dark_hydrogen_oxidation (13 records):
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__unclassified_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__uncultured_archaeon_g__Methanobacterium
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__unclassified_g__Methanobrevibacter
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__unclassified_g__Methanobrevibacter
+    d__Archaea; k__norank_d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanosphaera; s__unclassified_g__Methanosphaera
+    d__Archaea; k__norank_d__Archaea; p__Halobacterota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanospirillaceae; g__Methanospirillum; s__unclassified_g__Methanospirillum
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Acetitomaculum; s__unclassified_g__Acetitomaculum
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__Xanthobacter; s__unclassified_g__Xanthobacter
+
+
+# nitrogen_fixation (6 records):
+    d__Archaea; k__norank_d__Archaea; p__Halobacterota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanospirillaceae; g__Methanospirillum; s__unclassified_g__Methanospirillum
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__Methylocystis; s__unclassified_g__Methylocystis
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__Methylocystis; s__unclassified_g__Methylocystis
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__Bradyrhizobium; s__unclassified_g__Bradyrhizobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__Xanthobacter; s__unclassified_g__Xanthobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Magnetospirillaceae; g__Magnetospirillum; s__unclassified_g__Magnetospirillum
+
+
+# nitrate_ammonification (0 records):
+
+
+# nitrite_ammonification (0 records):
+
+
+# nitrite_respiration (7 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Planctomycetota; c__Brocadiae; o__Brocadiales; f__Brocadiaceae; g__Candidatus_Brocadia; s__uncultured_Candidatus_Brocadia_sp.
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Thauera; s__unclassified_g__Thauera
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+
+
+# cellulolysis (0 records):
+
+
+# xylanolysis (0 records):
+
+
+# dark_sulfide_oxidation (4 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Thiomonas; s__unclassified_g__Thiomonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Hydrogenophilaceae; g__Thiobacillus; s__unclassified_g__Thiobacillus
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Thiotrichales; f__Thiotrichaceae; g__Thiothrix; s__Thiothrix_sp._NKBI-C
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Thiotrichales; f__Thiotrichaceae; g__Thiothrix; s__unclassified_g__Thiothrix
+
+
+# dark_sulfur_oxidation (1 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Thiomonas; s__unclassified_g__Thiomonas
+
+
+# dark_thiosulfate_oxidation (1 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Thiomonas; s__unclassified_g__Thiomonas
+
+
+# dark_oxidation_of_sulfur_compounds (4 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Thiomonas; s__unclassified_g__Thiomonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Hydrogenophilaceae; g__Thiobacillus; s__unclassified_g__Thiobacillus
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Thiotrichales; f__Thiotrichaceae; g__Thiothrix; s__Thiothrix_sp._NKBI-C
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Thiotrichales; f__Thiotrichaceae; g__Thiothrix; s__unclassified_g__Thiothrix
+
+
+# manganese_oxidation (0 records):
+
+
+# manganese_respiration (0 records):
+
+
+# ligninolysis (0 records):
+
+
+# fermentation (62 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Acidobacteriota; c__Holophagae; o__Holophagales; f__Holophagaceae; g__Geothrix; s__metagenome_g__Geothrix
+    d__Bacteria; k__norank_d__Bacteria; p__Acidobacteriota; c__Holophagae; o__Holophagales; f__Holophagaceae; g__Geothrix; s__metagenome_g__Geothrix
+    d__Bacteria; k__norank_d__Bacteria; p__Acidobacteriota; c__Holophagae; o__Holophagales; f__Holophagaceae; g__Geothrix; s__unclassified_g__Geothrix
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Actinomycetales; f__Actinomycetaceae; g__Actinomyces; s__unclassified_g__Actinomyces
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Bifidobacteriales; f__Bifidobacteriaceae; g__Bifidobacterium; s__unclassified_g__Bifidobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Bifidobacteriales; f__Bifidobacteriaceae; g__Bifidobacterium; s__unclassified_g__Bifidobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Micrococcales; f__Bogoriellaceae; g__Georgenia; s__unclassified_g__Georgenia
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Brooklawnia; s__metagenome_g__Brooklawnia
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionicicella; s__uncultured_bacterium_g__Propionicicella
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Coriobacteriia; o__Coriobacteriales; f__Atopobiaceae; g__Olsenella; s__uncultured_bacterium_g__Olsenella
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Coriobacteriia; o__Coriobacteriales; f__Coriobacteriaceae; g__Collinsella; s__unclassified_g__Collinsella
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__unclassified_g__Bacteroides
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__unclassified_g__Bacteroides
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__unclassified_g__Bacteroides
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Dysgonomonadaceae; g__Dysgonomonas; s__uncultured_bacterium_g__Dysgonomonas
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Dysgonomonadaceae; g__Petrimonas; s__unclassified_g__Petrimonas
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Paludibacteraceae; g__Paludibacter; s__Paludibacter_jiangxiensis
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Paludibacteraceae; g__Paludibacter; s__unclassified_g__Paludibacter
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Paludibacteraceae; g__Paludibacter; s__uncultured_anaerobic_bacterium_g__Paludibacter
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Paludibacteraceae; g__Paludibacter; s__uncultured_bacterium_g__Paludibacter
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Paludibacteraceae; g__Paludibacter; s__uncultured_Dysgonomonas_sp._g__Paludibacter
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Tannerellaceae; g__Parabacteroides; s__uncultured_Bacteroidetes_bacterium_g__Parabacteroides
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Williamwhitmaniaceae; g__Blvii28_wastewater-sludge_group; s__uncultured_Anaerophaga_sp._g__Blvii28_wastewater-sludge_group
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Weeksellaceae; g__Cloacibacterium; s__unclassified_g__Cloacibacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Weeksellaceae; g__Cloacibacterium; s__unclassified_g__Cloacibacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Chloroflexi; c__Anaerolineae; o__Anaerolineales; f__Anaerolineaceae; g__Anaerolinea; s__Anaerolinea_thermolimosa
+    d__Bacteria; k__norank_d__Bacteria; p__Chloroflexi; c__Anaerolineae; o__Anaerolineales; f__Anaerolineaceae; g__Levilinea; s__Levilinea_saccharolytica
+    d__Bacteria; k__norank_d__Bacteria; p__Desulfobacterota; c__Desulfobulbia; o__Desulfobulbales; f__Desulfobulbaceae; g__Desulfobulbus; s__unclassified_g__Desulfobulbus
+    d__Bacteria; k__norank_d__Bacteria; p__Desulfobacterota; c__Syntrophia; o__Syntrophales; f__Syntrophaceae; g__Syntrophus; s__unclassified_g__Syntrophus
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Bacilli; o__Erysipelotrichales; f__Erysipelotrichaceae; g__Turicibacter; s__unclassified_g__Turicibacter
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Carnobacteriaceae; g__Trichococcus; s__unclassified_g__Trichococcus
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Lactobacillaceae; g__Lactobacillus; s__unclassified_g__Lactobacillus
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Lactococcus; s__unclassified_g__Lactococcus
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Lactococcus; s__unclassified_g__Lactococcus
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus_thermophilus_TH1435
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__unclassified_g__Streptococcus
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Acetitomaculum; s__unclassified_g__Acetitomaculum
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Oscillospirales; f__Eubacterium_coprostanoligenes_group; g__norank_f__Eubacterium_coprostanoligenes_group; s__unclassified_g__norank_f__Eubacterium_coprostanoligenes_group
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Ruminococcus; s__unclassified_g__Ruminococcus
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Subdoligranulum; s__unclassified_g__Subdoligranulum
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Peptostreptococcales-Tissierellales; f__Anaerovoracaceae; g__Anaerovorax; s__unclassified_g__Anaerovorax
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Peptostreptococcales-Tissierellales; f__Peptostreptococcaceae; g__Acetoanaerobium; s__unclassified_g__Acetoanaerobium
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Peptostreptococcales-Tissierellales; f__Peptostreptococcaceae; g__Intestinibacter; s__unclassified_g__Intestinibacter
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Peptostreptococcales-Tissierellales; f__Peptostreptococcaceae; g__Paraclostridium; s__unclassified_g__Paraclostridium
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Peptostreptococcales-Tissierellales; f__Peptostreptococcaceae; g__Proteocatella; s__uncultured_Clostridiales_bacterium_g__Proteocatella
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Peptostreptococcales-Tissierellales; f__Peptostreptococcaceae; g__Romboutsia; s__unclassified_g__Romboutsia
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Peptostreptococcales-Tissierellales; f__Peptostreptococcaceae; g__Terrisporobacter; s__unclassified_g__Terrisporobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Negativicutes; o__Veillonellales-Selenomonadales; f__Veillonellaceae; g__Veillonella; s__unclassified_g__Veillonella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Lautropia; s__unclassified_g__Lautropia
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Lautropia; s__unclassified_g__Lautropia
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Lautropia; s__unclassified_g__Lautropia
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Lautropia; s__unclassified_g__Lautropia
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Propionivibrio; s__unclassified_g__Propionivibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Spirochaetota; c__Spirochaetia; o__Spirochaetales; f__Spirochaetaceae; g__Spirochaeta; s__Spirochaeta_sp._g__Spirochaeta
+    d__Bacteria; k__norank_d__Bacteria; p__Spirochaetota; c__Spirochaetia; o__Spirochaetales; f__Spirochaetaceae; g__Spirochaeta; s__Spirochaeta_sp._g__Spirochaeta
+    d__Bacteria; k__norank_d__Bacteria; p__Spirochaetota; c__Spirochaetia; o__Spirochaetales; f__Spirochaetaceae; g__Spirochaeta; s__Spirochaeta_sp._g__Spirochaeta
+    d__Bacteria; k__norank_d__Bacteria; p__Spirochaetota; c__Spirochaetia; o__Spirochaetales; f__Spirochaetaceae; g__Spirochaeta; s__uncultured_bacterium_g__Spirochaeta
+    d__Bacteria; k__norank_d__Bacteria; p__Spirochaetota; c__Spirochaetia; o__Spirochaetales; f__Spirochaetaceae; g__Spirochaeta; s__uncultured_soil_bacterium_g__Spirochaeta
+    d__Bacteria; k__norank_d__Bacteria; p__Spirochaetota; c__Spirochaetia; o__Spirochaetales; f__Spirochaetaceae; g__Spirochaeta; s__uncultured_soil_bacterium_g__Spirochaeta
+    d__Bacteria; k__norank_d__Bacteria; p__Spirochaetota; c__Spirochaetia; o__Spirochaetales; f__Spirochaetaceae; g__Spirochaeta; s__uncultured_soil_bacterium_g__Spirochaeta
+    d__Bacteria; k__norank_d__Bacteria; p__Synergistota; c__Synergistia; o__Synergistales; f__Synergistaceae; g__Aminomonas; s__Aminomonas_paucivorans_DSM_12260
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiae; o__Verrucomicrobiales; f__Verrucomicrobiaceae; g__norank_f__Verrucomicrobiaceae; s__uncultured_verrucomicrobium_DEV006
+
+
+# aerobic_chemoheterotrophy (112 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Mycobacteriaceae; g__Mycobacterium; s__unclassified_g__Mycobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Mycobacteriaceae; g__Mycobacterium; s__unclassified_g__Mycobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Mycobacteriaceae; g__Mycobacterium; s__unclassified_g__Mycobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Mycobacteriaceae; g__Mycobacterium; s__unclassified_g__Mycobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Mycobacteriaceae; g__Mycobacterium; s__unclassified_g__Mycobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Mycobacteriaceae; g__Mycobacterium; s__unclassified_g__Mycobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Mycobacteriaceae; g__Mycobacterium; s__unclassified_g__Mycobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Nocardiaceae; g__Gordonia; s__unclassified_g__Gordonia
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Nocardiaceae; g__Gordonia; s__unclassified_g__Gordonia
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Nocardiaceae; g__Gordonia; s__unclassified_g__Gordonia
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Frankiales; f__Geodermatophilaceae; g__Blastococcus; s__unclassified_g__Blastococcus
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Frankiales; f__Nakamurellaceae; g__Nakamurella; s__unclassified_g__Nakamurella
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Micrococcales; f__Intrasporangiaceae; g__Tetrasphaera; s__unclassified_g__Tetrasphaera
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Micrococcales; f__Intrasporangiaceae; g__Tetrasphaera; s__unclassified_g__Tetrasphaera
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Micrococcales; f__Microbacteriaceae; g__Leucobacter; s__unclassified_g__Leucobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Micrococcales; f__Microbacteriaceae; g__Microbacterium; s__unclassified_g__Microbacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Nocardioidaceae; g__Nocardioides; s__unclassified_g__Nocardioides
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Nocardioidaceae; g__Nocardioides; s__unclassified_g__Nocardioides
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Nocardioidaceae; g__Nocardioides; s__unclassified_g__Nocardioides
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Nocardioidaceae; g__Nocardioides; s__unclassified_g__Nocardioides
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Nocardioidaceae; g__Nocardioides; s__unclassified_g__Nocardioides
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Brooklawnia; s__metagenome_g__Brooklawnia
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Micropruina; s__unclassified_g__Micropruina
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Micropruina; s__unclassified_g__Micropruina
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionicicella; s__uncultured_bacterium_g__Propionicicella
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Chitinophagales; f__Chitinophagaceae; g__Ferruginibacter; s__unclassified_g__Ferruginibacter
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Chitinophagales; f__Chitinophagaceae; g__Ferruginibacter; s__unclassified_g__Ferruginibacter
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Chitinophagales; f__Chitinophagaceae; g__Ferruginibacter; s__unclassified_g__Ferruginibacter
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Chitinophagales; f__Chitinophagaceae; g__Ferruginibacter; s__unclassified_g__Ferruginibacter
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Chitinophagales; f__Saprospiraceae; g__Haliscomenobacter; s__unclassified_g__Haliscomenobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Flavobacteriaceae; g__Flavobacterium; s__Cytophaga_sp._VM1T
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Flavobacteriaceae; g__Flavobacterium; s__Flavobacterium_croceum
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Flavobacteriaceae; g__Flavobacterium; s__Flavobacterium_croceum
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Flavobacteriaceae; g__Flavobacterium; s__unclassified_g__Flavobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Flavobacteriaceae; g__Flavobacterium; s__unclassified_g__Flavobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Flavobacteriaceae; g__Flavobacterium; s__unclassified_g__Flavobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Weeksellaceae; g__Chryseobacterium; s__unclassified_g__Chryseobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Weeksellaceae; g__Chryseobacterium; s__unclassified_g__Chryseobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Weeksellaceae; g__Chryseobacterium; s__unclassified_g__Chryseobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Weeksellaceae; g__Chryseobacterium; s__unclassified_g__Chryseobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Weeksellaceae; g__Chryseobacterium; s__unclassified_g__Chryseobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Bacilli; o__Paenibacillales; f__Paenibacillaceae; g__Paenibacillus; s__unclassified_g__Paenibacillus
+    d__Bacteria; k__norank_d__Bacteria; p__Planctomycetota; c__Planctomycetes; o__Isosphaerales; f__Isosphaeraceae; g__Singulisphaera; s__Nostocoida_limicola_III_g__Singulisphaera
+    d__Bacteria; k__norank_d__Bacteria; p__Planctomycetota; c__Planctomycetes; o__Planctomycetales; f__Schlesneriaceae; g__Schlesneria; s__uncultured_planctomycete_g__Schlesneria
+    d__Bacteria; k__norank_d__Bacteria; p__Planctomycetota; c__Planctomycetes; o__Planctomycetales; f__Schlesneriaceae; g__Schlesneria; s__uncultured_planctomycete_g__Schlesneria
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Acetobacterales; f__Acetobacteraceae; g__Roseomonas; s__unclassified_g__Roseomonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Azospirillales; f__Azospirillales_Incertae_Sedis; g__Stella; s__unclassified_g__Stella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Azospirillales; f__Azospirillales_Incertae_Sedis; g__Stella; s__unclassified_g__Stella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__Caulobacter; s__unclassified_g__Caulobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Reyranellales; f__Reyranellaceae; g__Reyranella; s__unclassified_g__Reyranella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Reyranellales; f__Reyranellaceae; g__Reyranella; s__unclassified_g__Reyranella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Reyranellales; f__Reyranellaceae; g__Reyranella; s__unclassified_g__Reyranella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Reyranellales; f__Reyranellaceae; g__Reyranella; s__unclassified_g__Reyranella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Devosiaceae; g__Devosia; s__unclassified_g__Devosia
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Hyphomicrobium; s__unclassified_g__Hyphomicrobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Hyphomicrobium; s__unclassified_g__Hyphomicrobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Hyphomicrobium; s__unclassified_g__Hyphomicrobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Hyphomicrobium; s__unclassified_g__Hyphomicrobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Pedomicrobium; s__unclassified_g__Pedomicrobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Pedomicrobium; s__unclassified_g__Pedomicrobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Ensifer; s__unclassified_g__Ensifer
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__Bradyrhizobium; s__unclassified_g__Bradyrhizobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__Xanthobacter; s__unclassified_g__Xanthobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Magnetospirillaceae; g__Magnetospirillum; s__unclassified_g__Magnetospirillum
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__norank_f__Sphingomonadaceae; s__Sphingobium_sp._W1.09-106
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__norank_f__Sphingomonadaceae; s__unclassified_g__norank_f__Sphingomonadaceae
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Novosphingobium; s__unclassified_g__Novosphingobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Novosphingobium; s__unclassified_g__Novosphingobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Novosphingobium; s__unclassified_g__Novosphingobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Novosphingobium; s__unclassified_g__Novosphingobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Novosphingobium; s__unclassified_g__Novosphingobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingobium; s__unclassified_g__Sphingobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__unclassified_g__Sphingomonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingosinicella; s__unclassified_g__Sphingosinicella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__unclassified_f__Sphingomonadaceae; s__unclassified_f__Sphingomonadaceae
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__unclassified_f__Sphingomonadaceae; s__unclassified_f__Sphingomonadaceae
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__unclassified_f__Sphingomonadaceae; s__unclassified_f__Sphingomonadaceae
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Achromobacter; s__unclassified_g__Achromobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Comamonas; s__unclassified_g__Comamonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Sphaerotilus; s__unclassified_g__Sphaerotilus
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Thauera; s__unclassified_g__Thauera
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Legionellales; f__Legionellaceae; g__Legionella; s__unclassified_g__Legionella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Legionellales; f__Legionellaceae; g__Legionella; s__unclassified_g__Legionella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Legionellales; f__Legionellaceae; g__Legionella; s__unclassified_g__Legionella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Legionellales; f__Legionellaceae; g__Legionella; s__unclassified_g__Legionella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Saccharospirillaceae; g__Oceanobacter; s__metagenome_g__Oceanobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__unclassified_g__Acinetobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__unclassified_g__Pseudomonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__unclassified_g__Pseudomonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Rhodanobacteraceae; g__Rhodanobacter; s__uncultured_Xanthomonadaceae_bacterium_g__Rhodanobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Xanthomonadaceae; g__Arenimonas; s__unclassified_g__Arenimonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Xanthomonadaceae; g__Stenotrophomonas; s__unclassified_g__Stenotrophomonas
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiae; o__Chthoniobacterales; f__Chthoniobacteraceae; g__Chthoniobacter; s__unclassified_g__Chthoniobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiae; o__Verrucomicrobiales; f__Verrucomicrobiaceae; g__norank_f__Verrucomicrobiaceae; s__unclassified_g__norank_f__Verrucomicrobiaceae
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiae; o__Verrucomicrobiales; f__Verrucomicrobiaceae; g__norank_f__Verrucomicrobiaceae; s__uncultured_bacterium_g__norank_f__Verrucomicrobiaceae
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiae; o__Verrucomicrobiales; f__Verrucomicrobiaceae; g__norank_f__Verrucomicrobiaceae; s__uncultured_verrucomicrobium_DEV006
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiae; o__Verrucomicrobiales; f__Verrucomicrobiaceae; g__Prosthecobacter; s__Cenchrus_americanus_g__Prosthecobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiae; o__Verrucomicrobiales; f__Verrucomicrobiaceae; g__Prosthecobacter; s__unclassified_g__Prosthecobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiae; o__Verrucomicrobiales; f__Verrucomicrobiaceae; g__Prosthecobacter; s__unclassified_g__Prosthecobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiae; o__Verrucomicrobiales; f__Verrucomicrobiaceae; g__Prosthecobacter; s__unclassified_g__Prosthecobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiae; o__Verrucomicrobiales; f__Verrucomicrobiaceae; g__Prosthecobacter; s__unclassified_g__Prosthecobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiae; o__Verrucomicrobiales; f__Verrucomicrobiaceae; g__unclassified_f__Verrucomicrobiaceae; s__unclassified_f__Verrucomicrobiaceae
+
+
+# invertebrate_parasites (0 records):
+
+
+# human_pathogens_septicemia (0 records):
+
+
+# human_pathogens_pneumonia (8 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Chitinimonadaceae; g__Chitinivorax; s__uncultured_bacterium_g__Chitinivorax
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Neisseriaceae; g__norank_f__Neisseriaceae; s__bacterium_enrichment_culture_clone_B2142011
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Neisseriaceae; g__norank_f__Neisseriaceae; s__Neisseriaceae_bacterium_DSM_100970
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Nitrosomonadaceae; g__Ellin6067; s__uncultured_Nitrosomonadaceae_bacterium_g__Ellin6067
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Nitrosomonadaceae; g__Ellin6067; s__uncultured_Nitrosomonadaceae_bacterium_g__Ellin6067
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Nitrosomonadaceae; g__Ellin6067; s__uncultured_rape_rhizosphere_bacterium_wr0025
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Sutterellaceae; g__AAP99; s__uncultured_bacterium_g__AAP99
+    d__Bacteria; k__norank_d__Bacteria; p__WPS-2; c__norank_p__WPS-2; o__norank_c__norank_p__WPS-2; f__norank_o__norank_c__norank_p__WPS-2; g__norank_f__norank_o__norank_c__norank_p__WPS-2; s__Burkholderiales_bacterium_Beta_02
+
+
+# human_pathogens_nosocomia (0 records):
+
+
+# human_pathogens_meningitis (0 records):
+
+
+# human_pathogens_gastroenteritis (0 records):
+
+
+# human_pathogens_diarrhea (0 records):
+
+
+# human_pathogens_all (12 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Acetobacterales; f__Acetobacteraceae; g__Roseomonas; s__unclassified_g__Roseomonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Chitinimonadaceae; g__Chitinivorax; s__uncultured_bacterium_g__Chitinivorax
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Neisseriaceae; g__norank_f__Neisseriaceae; s__bacterium_enrichment_culture_clone_B2142011
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Neisseriaceae; g__norank_f__Neisseriaceae; s__Neisseriaceae_bacterium_DSM_100970
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Nitrosomonadaceae; g__Ellin6067; s__uncultured_Nitrosomonadaceae_bacterium_g__Ellin6067
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Nitrosomonadaceae; g__Ellin6067; s__uncultured_Nitrosomonadaceae_bacterium_g__Ellin6067
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Nitrosomonadaceae; g__Ellin6067; s__uncultured_rape_rhizosphere_bacterium_wr0025
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Sutterellaceae; g__AAP99; s__uncultured_bacterium_g__AAP99
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Coxiellales; f__Coxiellaceae; g__Coxiella; s__unclassified_g__Coxiella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__unclassified_g__Acinetobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Xanthomonadaceae; g__Stenotrophomonas; s__unclassified_g__Stenotrophomonas
+    d__Bacteria; k__norank_d__Bacteria; p__WPS-2; c__norank_p__WPS-2; o__norank_c__norank_p__WPS-2; f__norank_o__norank_c__norank_p__WPS-2; g__norank_f__norank_o__norank_c__norank_p__WPS-2; s__Burkholderiales_bacterium_Beta_02
+
+
+# fish_parasites (0 records):
+
+
+# human_gut (2 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus_thermophilus_TH1435
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Ruminococcus_torques_group; s__unclassified_g__Ruminococcus_torques_group
+
+
+# mammal_gut (2 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus_thermophilus_TH1435
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Ruminococcus_torques_group; s__unclassified_g__Ruminococcus_torques_group
+
+
+# animal_parasites_or_symbionts (16 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Prevotellaceae; g__Prevotella; s__unclassified_g__Prevotella
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Prevotellaceae; g__Prevotella; s__unclassified_g__Prevotella
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus_thermophilus_TH1435
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Ruminococcus_torques_group; s__unclassified_g__Ruminococcus_torques_group
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Acetobacterales; f__Acetobacteraceae; g__Roseomonas; s__unclassified_g__Roseomonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Chitinimonadaceae; g__Chitinivorax; s__uncultured_bacterium_g__Chitinivorax
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Neisseriaceae; g__norank_f__Neisseriaceae; s__bacterium_enrichment_culture_clone_B2142011
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Neisseriaceae; g__norank_f__Neisseriaceae; s__Neisseriaceae_bacterium_DSM_100970
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Nitrosomonadaceae; g__Ellin6067; s__uncultured_Nitrosomonadaceae_bacterium_g__Ellin6067
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Nitrosomonadaceae; g__Ellin6067; s__uncultured_Nitrosomonadaceae_bacterium_g__Ellin6067
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Nitrosomonadaceae; g__Ellin6067; s__uncultured_rape_rhizosphere_bacterium_wr0025
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Sutterellaceae; g__AAP99; s__uncultured_bacterium_g__AAP99
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Coxiellales; f__Coxiellaceae; g__Coxiella; s__unclassified_g__Coxiella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__unclassified_g__Acinetobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Xanthomonadaceae; g__Stenotrophomonas; s__unclassified_g__Stenotrophomonas
+    d__Bacteria; k__norank_d__Bacteria; p__WPS-2; c__norank_p__WPS-2; o__norank_c__norank_p__WPS-2; f__norank_o__norank_c__norank_p__WPS-2; g__norank_f__norank_o__norank_c__norank_p__WPS-2; s__Burkholderiales_bacterium_Beta_02
+
+
+# plant_pathogen (0 records):
+
+
+# oil_bioremediation (0 records):
+
+
+# aromatic_hydrocarbon_degradation (1 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Nocardiaceae; g__Rhodococcus; s__unclassified_g__Rhodococcus
+
+
+# aromatic_compound_degradation (10 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Nocardiaceae; g__Gordonia; s__unclassified_g__Gordonia
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Nocardiaceae; g__Gordonia; s__unclassified_g__Gordonia
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Nocardiaceae; g__Gordonia; s__unclassified_g__Gordonia
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Nocardiaceae; g__Rhodococcus; s__unclassified_g__Rhodococcus
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Nocardioidaceae; g__Nocardioides; s__unclassified_g__Nocardioides
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Nocardioidaceae; g__Nocardioides; s__unclassified_g__Nocardioides
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Nocardioidaceae; g__Nocardioides; s__unclassified_g__Nocardioides
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Nocardioidaceae; g__Nocardioides; s__unclassified_g__Nocardioides
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Nocardioidaceae; g__Nocardioides; s__unclassified_g__Nocardioides
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__unclassified_g__Acinetobacter
+
+
+# aliphatic_non_methane_hydrocarbon_degradation (1 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Nocardiaceae; g__Rhodococcus; s__unclassified_g__Rhodococcus
+
+
+# hydrocarbon_degradation (13 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Nocardiaceae; g__Rhodococcus; s__unclassified_g__Rhodococcus
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__Methylocystis; s__unclassified_g__Methylocystis
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__Methylocystis; s__unclassified_g__Methylocystis
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Candidatus_Methylospira; s__unclassified_g__Candidatus_Methylospira
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylocaldum; s__Methylococcaceae_bacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylocaldum; s__unclassified_g__Methylocaldum
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylocaldum; s__uncultured_bacterium_g__Methylocaldum
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylocaldum; s__uncultured_bacterium_g__Methylocaldum
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methyloparacoccus; s__Methyloparacoccus_murrellii
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylomonadaceae; g__Crenothrix; s__uncultured_bacterium_g__Crenothrix
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylomonadaceae; g__Methylomonas; s__unclassified_g__Methylomonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylomonadaceae; g__Methylosarcina; s__unclassified_g__Methylosarcina
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylomonadaceae; g__Methylovulum; s__uncultured_gamma_proteobacterium_g__Methylovulum
+
+
+# dark_iron_oxidation (0 records):
+
+
+# iron_respiration (0 records):
+
+
+# nitrate_respiration (19 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Micropruina; s__unclassified_g__Micropruina
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Micropruina; s__unclassified_g__Micropruina
+    d__Bacteria; k__norank_d__Bacteria; p__Planctomycetota; c__Planctomycetes; o__Planctomycetales; f__Schlesneriaceae; g__Schlesneria; s__uncultured_planctomycete_g__Schlesneria
+    d__Bacteria; k__norank_d__Bacteria; p__Planctomycetota; c__Planctomycetes; o__Planctomycetales; f__Schlesneriaceae; g__Schlesneria; s__uncultured_planctomycete_g__Schlesneria
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Magnetospirillaceae; g__Magnetospirillum; s__unclassified_g__Magnetospirillum
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Achromobacter; s__unclassified_g__Achromobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Aquabacterium; s__unclassified_g__Aquabacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Thauera; s__unclassified_g__Thauera
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Xanthomonadaceae; g__Stenotrophomonas; s__unclassified_g__Stenotrophomonas
+
+
+# nitrate_reduction (22 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Micropruina; s__unclassified_g__Micropruina
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Micropruina; s__unclassified_g__Micropruina
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Negativicutes; o__Veillonellales-Selenomonadales; f__Veillonellaceae; g__Veillonella; s__unclassified_g__Veillonella
+    d__Bacteria; k__norank_d__Bacteria; p__Planctomycetota; c__Planctomycetes; o__Planctomycetales; f__Schlesneriaceae; g__Schlesneria; s__uncultured_planctomycete_g__Schlesneria
+    d__Bacteria; k__norank_d__Bacteria; p__Planctomycetota; c__Planctomycetes; o__Planctomycetales; f__Schlesneriaceae; g__Schlesneria; s__uncultured_planctomycete_g__Schlesneria
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Ensifer; s__unclassified_g__Ensifer
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Magnetospirillaceae; g__Magnetospirillum; s__unclassified_g__Magnetospirillum
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Achromobacter; s__unclassified_g__Achromobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Aquabacterium; s__unclassified_g__Aquabacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Thauera; s__unclassified_g__Thauera
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylomonadaceae; g__Methylosarcina; s__unclassified_g__Methylosarcina
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Xanthomonadaceae; g__Stenotrophomonas; s__unclassified_g__Stenotrophomonas
+
+
+# nitrogen_respiration (20 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Micropruina; s__unclassified_g__Micropruina
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Micropruina; s__unclassified_g__Micropruina
+    d__Bacteria; k__norank_d__Bacteria; p__Planctomycetota; c__Brocadiae; o__Brocadiales; f__Brocadiaceae; g__Candidatus_Brocadia; s__uncultured_Candidatus_Brocadia_sp.
+    d__Bacteria; k__norank_d__Bacteria; p__Planctomycetota; c__Planctomycetes; o__Planctomycetales; f__Schlesneriaceae; g__Schlesneria; s__uncultured_planctomycete_g__Schlesneria
+    d__Bacteria; k__norank_d__Bacteria; p__Planctomycetota; c__Planctomycetes; o__Planctomycetales; f__Schlesneriaceae; g__Schlesneria; s__uncultured_planctomycete_g__Schlesneria
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Magnetospirillaceae; g__Magnetospirillum; s__unclassified_g__Magnetospirillum
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Achromobacter; s__unclassified_g__Achromobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Aquabacterium; s__unclassified_g__Aquabacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Thauera; s__unclassified_g__Thauera
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Xanthomonadaceae; g__Stenotrophomonas; s__unclassified_g__Stenotrophomonas
+
+
+# fumarate_respiration (0 records):
+
+
+# intracellular_parasites (22 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__SM2D12; g__norank_f__SM2D12; s__metagenome_g__norank_f__SM2D12
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__SM2D12; g__norank_f__SM2D12; s__unclassified_g__norank_f__SM2D12
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__SM2D12; g__norank_f__SM2D12; s__uncultured_bacterium_g__norank_f__SM2D12
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__unclassified_o__Rickettsiales; g__unclassified_o__Rickettsiales; s__unclassified_o__Rickettsiales
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Coxiellales; f__Coxiellaceae; g__Coxiella; s__unclassified_g__Coxiella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Diplorickettsiales; f__Diplorickettsiaceae; g__norank_f__Diplorickettsiaceae; s__uncultured_Legionellales_bacterium_g__norank_f__Diplorickettsiaceae
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Legionellales; f__Legionellaceae; g__Legionella; s__unclassified_g__Legionella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Legionellales; f__Legionellaceae; g__Legionella; s__unclassified_g__Legionella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Legionellales; f__Legionellaceae; g__Legionella; s__unclassified_g__Legionella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Legionellales; f__Legionellaceae; g__Legionella; s__unclassified_g__Legionella
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Chlamydiae; o__Chlamydiales; f__Criblamydiaceae; g__Estrella; s__Estrella_lausannensis
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Chlamydiae; o__Chlamydiales; f__Parachlamydiaceae; g__Candidatus_Protochlamydia; s__unclassified_g__Candidatus_Protochlamydia
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Chlamydiae; o__Chlamydiales; f__Parachlamydiaceae; g__Candidatus_Protochlamydia; s__unclassified_g__Candidatus_Protochlamydia
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Chlamydiae; o__Chlamydiales; f__Parachlamydiaceae; g__Candidatus_Protochlamydia; s__unclassified_g__Candidatus_Protochlamydia
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Chlamydiae; o__Chlamydiales; f__Parachlamydiaceae; g__unclassified_f__Parachlamydiaceae; s__unclassified_f__Parachlamydiaceae
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Chlamydiae; o__Chlamydiales; f__Simkaniaceae; g__Candidatus_Renichlamydia; s__uncultured_Candidatus_Rhabdochlamydia_sp._g__Candidatus_Renichlamydia
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Chlamydiae; o__Chlamydiales; f__Simkaniaceae; g__norank_f__Simkaniaceae; s__unclassified_g__norank_f__Simkaniaceae
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Chlamydiae; o__Chlamydiales; f__Simkaniaceae; g__norank_f__Simkaniaceae; s__unclassified_g__norank_f__Simkaniaceae
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Chlamydiae; o__Chlamydiales; f__unclassified_o__Chlamydiales; g__unclassified_o__Chlamydiales; s__unclassified_o__Chlamydiales
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Chlamydiae; o__Chlamydiales; f__unclassified_o__Chlamydiales; g__unclassified_o__Chlamydiales; s__unclassified_o__Chlamydiales
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Chlamydiae; o__LD1-PA32; f__norank_o__LD1-PA32; g__norank_f__norank_o__LD1-PA32; s__uncultured_bacterium_g__norank_f__norank_o__LD1-PA32
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Chlamydiae; o__LD1-PA32; f__norank_o__LD1-PA32; g__norank_f__norank_o__LD1-PA32; s__uncultured_Clostridiales_bacterium_g__norank
+
+
+# chlorate_reducers (5 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+
+
+# predatory_or_exoparasitic (49 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bacteriovoracales; f__Bacteriovoracaceae; g__Bacteriovorax; s__unclassified_g__Bacteriovorax
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bacteriovoracales; f__Bacteriovoracaceae; g__Bacteriovorax; s__unclassified_g__Bacteriovorax
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__Bdellovibrio_sp._SKB1291214
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__Bdellovibrio_sp._SKB1291214
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__metagenome_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__metagenome_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__metagenome_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__unclassified_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__unclassified_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__unclassified_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__unclassified_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__unclassified_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__unclassified_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__unclassified_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__unclassified_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__unclassified_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__unclassified_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__unclassified_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__unclassified_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__unclassified_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__unclassified_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__uncultured_bacterium_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__uncultured_bacterium_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__uncultured_bacterium_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__uncultured_bacterium_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__uncultured_bacterium_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__uncultured_bacterium_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__uncultured_bacterium_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__uncultured_bacterium_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__uncultured_bacterium_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__uncultured_bacterium_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__uncultured_bacterium_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__uncultured_bacterium_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__uncultured_bacterium_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__Bdellovibrio; s__uncultured_deep-sea_bacterium_g__Bdellovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__OM27_clade; s__unclassified_g__OM27_clade
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__OM27_clade; s__uncultured_bacterium_g__OM27_clade
+    d__Bacteria; k__norank_d__Bacteria; p__Bdellovibrionota; c__Bdellovibrionia; o__Bdellovibrionales; f__Bdellovibrionaceae; g__OM27_clade; s__uncultured_Myxococcales_bacterium_g__OM27_clade
+    d__Bacteria; k__norank_d__Bacteria; p__Myxococcota; c__Polyangia; o__Haliangiales; f__Haliangiaceae; g__Haliangium; s__unclassified_g__Haliangium
+    d__Bacteria; k__norank_d__Bacteria; p__Myxococcota; c__Polyangia; o__Haliangiales; f__Haliangiaceae; g__Haliangium; s__unclassified_g__Haliangium
+    d__Bacteria; k__norank_d__Bacteria; p__Myxococcota; c__Polyangia; o__Haliangiales; f__Haliangiaceae; g__Haliangium; s__unclassified_g__Haliangium
+    d__Bacteria; k__norank_d__Bacteria; p__Myxococcota; c__Polyangia; o__Haliangiales; f__Haliangiaceae; g__Haliangium; s__unclassified_g__Haliangium
+    d__Bacteria; k__norank_d__Bacteria; p__Myxococcota; c__Polyangia; o__Haliangiales; f__Haliangiaceae; g__Haliangium; s__unclassified_g__Haliangium
+    d__Bacteria; k__norank_d__Bacteria; p__Myxococcota; c__Polyangia; o__Haliangiales; f__Haliangiaceae; g__Haliangium; s__unclassified_g__Haliangium
+    d__Bacteria; k__norank_d__Bacteria; p__Myxococcota; c__Polyangia; o__Haliangiales; f__Haliangiaceae; g__Haliangium; s__unclassified_g__Haliangium
+    d__Bacteria; k__norank_d__Bacteria; p__Myxococcota; c__Polyangia; o__Haliangiales; f__Haliangiaceae; g__Haliangium; s__unclassified_g__Haliangium
+    d__Bacteria; k__norank_d__Bacteria; p__Myxococcota; c__Polyangia; o__Haliangiales; f__Haliangiaceae; g__Haliangium; s__unclassified_g__Haliangium
+    d__Bacteria; k__norank_d__Bacteria; p__Myxococcota; c__Polyangia; o__Haliangiales; f__Haliangiaceae; g__Haliangium; s__unclassified_g__Haliangium
+    d__Bacteria; k__norank_d__Bacteria; p__Myxococcota; c__Polyangia; o__Haliangiales; f__Haliangiaceae; g__Haliangium; s__uncultured_bacterium_g__Haliangium
+
+
+# chloroplasts (0 records):
+
+
+# cyanobacteria (11 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Sericytochromatia; o__norank_c__Sericytochromatia; f__norank_o__norank_c__Sericytochromatia; g__norank_f__norank_o__norank_c__Sericytochromatia; s__Hyaloperonospora_arabidopsidis_g__norank
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Sericytochromatia; o__norank_c__Sericytochromatia; f__norank_o__norank_c__Sericytochromatia; g__norank_f__norank_o__norank_c__Sericytochromatia; s__unclassified_g__norank_f__norank_o__norank_c__Sericytochromatia
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Sericytochromatia; o__norank_c__Sericytochromatia; f__norank_o__norank_c__Sericytochromatia; g__norank_f__norank_o__norank_c__Sericytochromatia; s__uncultured_bacterium_g__norank_f__norank_o__norank_c__Sericytochromatia
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Sericytochromatia; o__norank_c__Sericytochromatia; f__norank_o__norank_c__Sericytochromatia; g__norank_f__norank_o__norank_c__Sericytochromatia; s__uncultured_bacterium_g__norank_f__norank_o__norank_c__Sericytochromatia
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Sericytochromatia; o__norank_c__Sericytochromatia; f__norank_o__norank_c__Sericytochromatia; g__norank_f__norank_o__norank_c__Sericytochromatia; s__uncultured_bacterium_g__norank_f__norank_o__norank_c__Sericytochromatia
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__unclassified_p__Cyanobacteria; o__unclassified_p__Cyanobacteria; f__unclassified_p__Cyanobacteria; g__unclassified_p__Cyanobacteria; s__unclassified_p__Cyanobacteria
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Vampirivibrionia; o__Gastranaerophilales; f__norank_o__Gastranaerophilales; g__norank_f__norank_o__Gastranaerophilales; s__uncultured_Merismopedia_sp._g__norank
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Vampirivibrionia; o__Gastranaerophilales; f__norank_o__Gastranaerophilales; g__norank_f__norank_o__Gastranaerophilales; s__uncultured_organism_g__norank_f__norank_o__Gastranaerophilales
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Vampirivibrionia; o__Obscuribacterales; f__Obscuribacteraceae; g__Candidatus_Obscuribacter; s__uncultured_bacterium_g__Candidatus_Obscuribacter
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Vampirivibrionia; o__Obscuribacterales; f__Obscuribacteraceae; g__norank_f__Obscuribacteraceae; s__uncultured_bacterium_g__norank_f__Obscuribacteraceae
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Vampirivibrionia; o__Vampirovibrionales; f__Vampirovibrionaceae; g__Vampirovibrio; s__uncultured_bacterium_g__Vampirovibrio
+
+
+# anoxygenic_photoautotrophy_H2_oxidizing (0 records):
+
+
+# anoxygenic_photoautotrophy_S_oxidizing (0 records):
+
+
+# anoxygenic_photoautotrophy_Fe_oxidizing (0 records):
+
+
+# anoxygenic_photoautotrophy (0 records):
+
+
+# oxygenic_photoautotrophy (11 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Sericytochromatia; o__norank_c__Sericytochromatia; f__norank_o__norank_c__Sericytochromatia; g__norank_f__norank_o__norank_c__Sericytochromatia; s__Hyaloperonospora_arabidopsidis_g__norank
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Sericytochromatia; o__norank_c__Sericytochromatia; f__norank_o__norank_c__Sericytochromatia; g__norank_f__norank_o__norank_c__Sericytochromatia; s__unclassified_g__norank_f__norank_o__norank_c__Sericytochromatia
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Sericytochromatia; o__norank_c__Sericytochromatia; f__norank_o__norank_c__Sericytochromatia; g__norank_f__norank_o__norank_c__Sericytochromatia; s__uncultured_bacterium_g__norank_f__norank_o__norank_c__Sericytochromatia
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Sericytochromatia; o__norank_c__Sericytochromatia; f__norank_o__norank_c__Sericytochromatia; g__norank_f__norank_o__norank_c__Sericytochromatia; s__uncultured_bacterium_g__norank_f__norank_o__norank_c__Sericytochromatia
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Sericytochromatia; o__norank_c__Sericytochromatia; f__norank_o__norank_c__Sericytochromatia; g__norank_f__norank_o__norank_c__Sericytochromatia; s__uncultured_bacterium_g__norank_f__norank_o__norank_c__Sericytochromatia
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__unclassified_p__Cyanobacteria; o__unclassified_p__Cyanobacteria; f__unclassified_p__Cyanobacteria; g__unclassified_p__Cyanobacteria; s__unclassified_p__Cyanobacteria
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Vampirivibrionia; o__Gastranaerophilales; f__norank_o__Gastranaerophilales; g__norank_f__norank_o__Gastranaerophilales; s__uncultured_Merismopedia_sp._g__norank
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Vampirivibrionia; o__Gastranaerophilales; f__norank_o__Gastranaerophilales; g__norank_f__norank_o__Gastranaerophilales; s__uncultured_organism_g__norank_f__norank_o__Gastranaerophilales
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Vampirivibrionia; o__Obscuribacterales; f__Obscuribacteraceae; g__Candidatus_Obscuribacter; s__uncultured_bacterium_g__Candidatus_Obscuribacter
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Vampirivibrionia; o__Obscuribacterales; f__Obscuribacteraceae; g__norank_f__Obscuribacteraceae; s__uncultured_bacterium_g__norank_f__Obscuribacteraceae
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Vampirivibrionia; o__Vampirovibrionales; f__Vampirovibrionaceae; g__Vampirovibrio; s__uncultured_bacterium_g__Vampirovibrio
+
+
+# photoautotrophy (11 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Sericytochromatia; o__norank_c__Sericytochromatia; f__norank_o__norank_c__Sericytochromatia; g__norank_f__norank_o__norank_c__Sericytochromatia; s__Hyaloperonospora_arabidopsidis_g__norank
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Sericytochromatia; o__norank_c__Sericytochromatia; f__norank_o__norank_c__Sericytochromatia; g__norank_f__norank_o__norank_c__Sericytochromatia; s__unclassified_g__norank_f__norank_o__norank_c__Sericytochromatia
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Sericytochromatia; o__norank_c__Sericytochromatia; f__norank_o__norank_c__Sericytochromatia; g__norank_f__norank_o__norank_c__Sericytochromatia; s__uncultured_bacterium_g__norank_f__norank_o__norank_c__Sericytochromatia
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Sericytochromatia; o__norank_c__Sericytochromatia; f__norank_o__norank_c__Sericytochromatia; g__norank_f__norank_o__norank_c__Sericytochromatia; s__uncultured_bacterium_g__norank_f__norank_o__norank_c__Sericytochromatia
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Sericytochromatia; o__norank_c__Sericytochromatia; f__norank_o__norank_c__Sericytochromatia; g__norank_f__norank_o__norank_c__Sericytochromatia; s__uncultured_bacterium_g__norank_f__norank_o__norank_c__Sericytochromatia
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__unclassified_p__Cyanobacteria; o__unclassified_p__Cyanobacteria; f__unclassified_p__Cyanobacteria; g__unclassified_p__Cyanobacteria; s__unclassified_p__Cyanobacteria
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Vampirivibrionia; o__Gastranaerophilales; f__norank_o__Gastranaerophilales; g__norank_f__norank_o__Gastranaerophilales; s__uncultured_Merismopedia_sp._g__norank
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Vampirivibrionia; o__Gastranaerophilales; f__norank_o__Gastranaerophilales; g__norank_f__norank_o__Gastranaerophilales; s__uncultured_organism_g__norank_f__norank_o__Gastranaerophilales
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Vampirivibrionia; o__Obscuribacterales; f__Obscuribacteraceae; g__Candidatus_Obscuribacter; s__uncultured_bacterium_g__Candidatus_Obscuribacter
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Vampirivibrionia; o__Obscuribacterales; f__Obscuribacteraceae; g__norank_f__Obscuribacteraceae; s__uncultured_bacterium_g__norank_f__Obscuribacteraceae
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Vampirivibrionia; o__Vampirovibrionales; f__Vampirovibrionaceae; g__Vampirovibrio; s__uncultured_bacterium_g__Vampirovibrio
+
+
+# aerobic_anoxygenic_phototrophy (0 records):
+
+
+# photoheterotrophy (1 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Rhodobacter; s__unclassified_g__Rhodobacter
+
+
+# phototrophy (12 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Sericytochromatia; o__norank_c__Sericytochromatia; f__norank_o__norank_c__Sericytochromatia; g__norank_f__norank_o__norank_c__Sericytochromatia; s__Hyaloperonospora_arabidopsidis_g__norank
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Sericytochromatia; o__norank_c__Sericytochromatia; f__norank_o__norank_c__Sericytochromatia; g__norank_f__norank_o__norank_c__Sericytochromatia; s__unclassified_g__norank_f__norank_o__norank_c__Sericytochromatia
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Sericytochromatia; o__norank_c__Sericytochromatia; f__norank_o__norank_c__Sericytochromatia; g__norank_f__norank_o__norank_c__Sericytochromatia; s__uncultured_bacterium_g__norank_f__norank_o__norank_c__Sericytochromatia
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Sericytochromatia; o__norank_c__Sericytochromatia; f__norank_o__norank_c__Sericytochromatia; g__norank_f__norank_o__norank_c__Sericytochromatia; s__uncultured_bacterium_g__norank_f__norank_o__norank_c__Sericytochromatia
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Sericytochromatia; o__norank_c__Sericytochromatia; f__norank_o__norank_c__Sericytochromatia; g__norank_f__norank_o__norank_c__Sericytochromatia; s__uncultured_bacterium_g__norank_f__norank_o__norank_c__Sericytochromatia
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__unclassified_p__Cyanobacteria; o__unclassified_p__Cyanobacteria; f__unclassified_p__Cyanobacteria; g__unclassified_p__Cyanobacteria; s__unclassified_p__Cyanobacteria
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Vampirivibrionia; o__Gastranaerophilales; f__norank_o__Gastranaerophilales; g__norank_f__norank_o__Gastranaerophilales; s__uncultured_Merismopedia_sp._g__norank
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Vampirivibrionia; o__Gastranaerophilales; f__norank_o__Gastranaerophilales; g__norank_f__norank_o__Gastranaerophilales; s__uncultured_organism_g__norank_f__norank_o__Gastranaerophilales
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Vampirivibrionia; o__Obscuribacterales; f__Obscuribacteraceae; g__Candidatus_Obscuribacter; s__uncultured_bacterium_g__Candidatus_Obscuribacter
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Vampirivibrionia; o__Obscuribacterales; f__Obscuribacteraceae; g__norank_f__Obscuribacteraceae; s__uncultured_bacterium_g__norank_f__Obscuribacteraceae
+    d__Bacteria; k__norank_d__Bacteria; p__Cyanobacteria; c__Vampirivibrionia; o__Vampirovibrionales; f__Vampirovibrionaceae; g__Vampirovibrio; s__uncultured_bacterium_g__Vampirovibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Rhodobacter; s__unclassified_g__Rhodobacter
+
+
+# plastic_degradation (0 records):
+
+
+# ureolysis (4 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Planctomycetota; c__Planctomycetes; o__Isosphaerales; f__Isosphaeraceae; g__Singulisphaera; s__Nostocoida_limicola_III_g__Singulisphaera
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Acetobacterales; f__Acetobacteraceae; g__Roseomonas; s__unclassified_g__Roseomonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Oxalobacteraceae; g__Duganella; s__unclassified_g__Duganella
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiae; o__Verrucomicrobiales; f__Verrucomicrobiaceae; g__norank_f__Verrucomicrobiaceae; s__uncultured_verrucomicrobium_DEV006
+
+
+# reductive_acetogenesis (1 records):
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Acetitomaculum; s__unclassified_g__Acetitomaculum
+
+
+# chemoheterotrophy (188 records):
+    d__Archaea; k__norank_d__Archaea; p__Halobacterota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanospirillaceae; g__Methanospirillum; s__unclassified_g__Methanospirillum
+    d__Archaea; k__norank_d__Archaea; p__Thermoplasmatota; c__Thermoplasmata; o__Methanomassiliicoccales; f__Methanomassiliicoccaceae; g__Methanomassiliicoccus; s__uncultured_archaeon_g__Methanomassiliicoccus
+    d__Archaea; k__norank_d__Archaea; p__Thermoplasmatota; c__Thermoplasmata; o__Methanomassiliicoccales; f__Methanomassiliicoccaceae; g__norank_f__Methanomassiliicoccaceae; s__uncultured_archaeon_g__norank_f__Methanomassiliicoccaceae
+    d__Bacteria; k__norank_d__Bacteria; p__Acidobacteriota; c__Holophagae; o__Holophagales; f__Holophagaceae; g__Geothrix; s__metagenome_g__Geothrix
+    d__Bacteria; k__norank_d__Bacteria; p__Acidobacteriota; c__Holophagae; o__Holophagales; f__Holophagaceae; g__Geothrix; s__metagenome_g__Geothrix
+    d__Bacteria; k__norank_d__Bacteria; p__Acidobacteriota; c__Holophagae; o__Holophagales; f__Holophagaceae; g__Geothrix; s__unclassified_g__Geothrix
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Actinomycetales; f__Actinomycetaceae; g__Actinomyces; s__unclassified_g__Actinomyces
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Bifidobacteriales; f__Bifidobacteriaceae; g__Bifidobacterium; s__unclassified_g__Bifidobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Bifidobacteriales; f__Bifidobacteriaceae; g__Bifidobacterium; s__unclassified_g__Bifidobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Mycobacteriaceae; g__Mycobacterium; s__unclassified_g__Mycobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Mycobacteriaceae; g__Mycobacterium; s__unclassified_g__Mycobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Mycobacteriaceae; g__Mycobacterium; s__unclassified_g__Mycobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Mycobacteriaceae; g__Mycobacterium; s__unclassified_g__Mycobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Mycobacteriaceae; g__Mycobacterium; s__unclassified_g__Mycobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Mycobacteriaceae; g__Mycobacterium; s__unclassified_g__Mycobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Mycobacteriaceae; g__Mycobacterium; s__unclassified_g__Mycobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Nocardiaceae; g__Gordonia; s__unclassified_g__Gordonia
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Nocardiaceae; g__Gordonia; s__unclassified_g__Gordonia
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Nocardiaceae; g__Gordonia; s__unclassified_g__Gordonia
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Corynebacteriales; f__Nocardiaceae; g__Rhodococcus; s__unclassified_g__Rhodococcus
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Frankiales; f__Geodermatophilaceae; g__Blastococcus; s__unclassified_g__Blastococcus
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Frankiales; f__Nakamurellaceae; g__Nakamurella; s__unclassified_g__Nakamurella
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Micrococcales; f__Bogoriellaceae; g__Georgenia; s__unclassified_g__Georgenia
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Micrococcales; f__Intrasporangiaceae; g__Tetrasphaera; s__unclassified_g__Tetrasphaera
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Micrococcales; f__Intrasporangiaceae; g__Tetrasphaera; s__unclassified_g__Tetrasphaera
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Micrococcales; f__Microbacteriaceae; g__Leucobacter; s__unclassified_g__Leucobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Micrococcales; f__Microbacteriaceae; g__Microbacterium; s__unclassified_g__Microbacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Nocardioidaceae; g__Nocardioides; s__unclassified_g__Nocardioides
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Nocardioidaceae; g__Nocardioides; s__unclassified_g__Nocardioides
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Nocardioidaceae; g__Nocardioides; s__unclassified_g__Nocardioides
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Nocardioidaceae; g__Nocardioides; s__unclassified_g__Nocardioides
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Nocardioidaceae; g__Nocardioides; s__unclassified_g__Nocardioides
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Brooklawnia; s__metagenome_g__Brooklawnia
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Micropruina; s__unclassified_g__Micropruina
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Micropruina; s__unclassified_g__Micropruina
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionicicella; s__uncultured_bacterium_g__Propionicicella
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Coriobacteriia; o__Coriobacteriales; f__Atopobiaceae; g__Olsenella; s__uncultured_bacterium_g__Olsenella
+    d__Bacteria; k__norank_d__Bacteria; p__Actinobacteriota; c__Coriobacteriia; o__Coriobacteriales; f__Coriobacteriaceae; g__Collinsella; s__unclassified_g__Collinsella
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__unclassified_g__Bacteroides
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__unclassified_g__Bacteroides
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__unclassified_g__Bacteroides
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Dysgonomonadaceae; g__Dysgonomonas; s__uncultured_bacterium_g__Dysgonomonas
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Dysgonomonadaceae; g__Petrimonas; s__unclassified_g__Petrimonas
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Paludibacteraceae; g__Paludibacter; s__Paludibacter_jiangxiensis
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Paludibacteraceae; g__Paludibacter; s__unclassified_g__Paludibacter
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Paludibacteraceae; g__Paludibacter; s__uncultured_anaerobic_bacterium_g__Paludibacter
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Paludibacteraceae; g__Paludibacter; s__uncultured_bacterium_g__Paludibacter
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Paludibacteraceae; g__Paludibacter; s__uncultured_Dysgonomonas_sp._g__Paludibacter
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Tannerellaceae; g__Parabacteroides; s__uncultured_Bacteroidetes_bacterium_g__Parabacteroides
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Bacteroidales; f__Williamwhitmaniaceae; g__Blvii28_wastewater-sludge_group; s__uncultured_Anaerophaga_sp._g__Blvii28_wastewater-sludge_group
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Chitinophagales; f__Chitinophagaceae; g__Ferruginibacter; s__unclassified_g__Ferruginibacter
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Chitinophagales; f__Chitinophagaceae; g__Ferruginibacter; s__unclassified_g__Ferruginibacter
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Chitinophagales; f__Chitinophagaceae; g__Ferruginibacter; s__unclassified_g__Ferruginibacter
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Chitinophagales; f__Chitinophagaceae; g__Ferruginibacter; s__unclassified_g__Ferruginibacter
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Chitinophagales; f__Saprospiraceae; g__Haliscomenobacter; s__unclassified_g__Haliscomenobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Flavobacteriaceae; g__Flavobacterium; s__Cytophaga_sp._VM1T
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Flavobacteriaceae; g__Flavobacterium; s__Flavobacterium_croceum
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Flavobacteriaceae; g__Flavobacterium; s__Flavobacterium_croceum
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Flavobacteriaceae; g__Flavobacterium; s__unclassified_g__Flavobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Flavobacteriaceae; g__Flavobacterium; s__unclassified_g__Flavobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Flavobacteriaceae; g__Flavobacterium; s__unclassified_g__Flavobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Weeksellaceae; g__Chryseobacterium; s__unclassified_g__Chryseobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Weeksellaceae; g__Chryseobacterium; s__unclassified_g__Chryseobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Weeksellaceae; g__Chryseobacterium; s__unclassified_g__Chryseobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Weeksellaceae; g__Chryseobacterium; s__unclassified_g__Chryseobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Weeksellaceae; g__Chryseobacterium; s__unclassified_g__Chryseobacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Weeksellaceae; g__Cloacibacterium; s__unclassified_g__Cloacibacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Flavobacteriales; f__Weeksellaceae; g__Cloacibacterium; s__unclassified_g__Cloacibacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Chloroflexi; c__Anaerolineae; o__Anaerolineales; f__Anaerolineaceae; g__Anaerolinea; s__Anaerolinea_thermolimosa
+    d__Bacteria; k__norank_d__Bacteria; p__Chloroflexi; c__Anaerolineae; o__Anaerolineales; f__Anaerolineaceae; g__Levilinea; s__Levilinea_saccharolytica
+    d__Bacteria; k__norank_d__Bacteria; p__Desulfobacterota; c__Desulfobulbia; o__Desulfobulbales; f__Desulfobulbaceae; g__Desulfobulbus; s__unclassified_g__Desulfobulbus
+    d__Bacteria; k__norank_d__Bacteria; p__Desulfobacterota; c__Syntrophia; o__Syntrophales; f__Syntrophaceae; g__Syntrophus; s__unclassified_g__Syntrophus
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Bacilli; o__Erysipelotrichales; f__Erysipelotrichaceae; g__Turicibacter; s__unclassified_g__Turicibacter
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Carnobacteriaceae; g__Trichococcus; s__unclassified_g__Trichococcus
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Lactobacillaceae; g__Lactobacillus; s__unclassified_g__Lactobacillus
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Lactococcus; s__unclassified_g__Lactococcus
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Lactococcus; s__unclassified_g__Lactococcus
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus_thermophilus_TH1435
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__unclassified_g__Streptococcus
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Bacilli; o__Paenibacillales; f__Paenibacillaceae; g__Paenibacillus; s__unclassified_g__Paenibacillus
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Lachnospirales; f__Lachnospiraceae; g__Acetitomaculum; s__unclassified_g__Acetitomaculum
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Oscillospirales; f__Eubacterium_coprostanoligenes_group; g__norank_f__Eubacterium_coprostanoligenes_group; s__unclassified_g__norank_f__Eubacterium_coprostanoligenes_group
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Ruminococcus; s__unclassified_g__Ruminococcus
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Oscillospirales; f__Ruminococcaceae; g__Subdoligranulum; s__unclassified_g__Subdoligranulum
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Peptostreptococcales-Tissierellales; f__Anaerovoracaceae; g__Anaerovorax; s__unclassified_g__Anaerovorax
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Peptostreptococcales-Tissierellales; f__Peptostreptococcaceae; g__Acetoanaerobium; s__unclassified_g__Acetoanaerobium
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Peptostreptococcales-Tissierellales; f__Peptostreptococcaceae; g__Intestinibacter; s__unclassified_g__Intestinibacter
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Peptostreptococcales-Tissierellales; f__Peptostreptococcaceae; g__Paraclostridium; s__unclassified_g__Paraclostridium
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Peptostreptococcales-Tissierellales; f__Peptostreptococcaceae; g__Proteocatella; s__uncultured_Clostridiales_bacterium_g__Proteocatella
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Peptostreptococcales-Tissierellales; f__Peptostreptococcaceae; g__Romboutsia; s__unclassified_g__Romboutsia
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Clostridia; o__Peptostreptococcales-Tissierellales; f__Peptostreptococcaceae; g__Terrisporobacter; s__unclassified_g__Terrisporobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Firmicutes; c__Negativicutes; o__Veillonellales-Selenomonadales; f__Veillonellaceae; g__Veillonella; s__unclassified_g__Veillonella
+    d__Bacteria; k__norank_d__Bacteria; p__Planctomycetota; c__Planctomycetes; o__Isosphaerales; f__Isosphaeraceae; g__Singulisphaera; s__Nostocoida_limicola_III_g__Singulisphaera
+    d__Bacteria; k__norank_d__Bacteria; p__Planctomycetota; c__Planctomycetes; o__Planctomycetales; f__Schlesneriaceae; g__Schlesneria; s__uncultured_planctomycete_g__Schlesneria
+    d__Bacteria; k__norank_d__Bacteria; p__Planctomycetota; c__Planctomycetes; o__Planctomycetales; f__Schlesneriaceae; g__Schlesneria; s__uncultured_planctomycete_g__Schlesneria
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Acetobacterales; f__Acetobacteraceae; g__Roseomonas; s__unclassified_g__Roseomonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Azospirillales; f__Azospirillales_Incertae_Sedis; g__Stella; s__unclassified_g__Stella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Azospirillales; f__Azospirillales_Incertae_Sedis; g__Stella; s__unclassified_g__Stella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__Caulobacter; s__unclassified_g__Caulobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Reyranellales; f__Reyranellaceae; g__Reyranella; s__unclassified_g__Reyranella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Reyranellales; f__Reyranellaceae; g__Reyranella; s__unclassified_g__Reyranella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Reyranellales; f__Reyranellaceae; g__Reyranella; s__unclassified_g__Reyranella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Reyranellales; f__Reyranellaceae; g__Reyranella; s__unclassified_g__Reyranella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__Methylocystis; s__unclassified_g__Methylocystis
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__Methylocystis; s__unclassified_g__Methylocystis
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Devosiaceae; g__Devosia; s__unclassified_g__Devosia
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Hyphomicrobium; s__unclassified_g__Hyphomicrobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Hyphomicrobium; s__unclassified_g__Hyphomicrobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Hyphomicrobium; s__unclassified_g__Hyphomicrobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Hyphomicrobium; s__unclassified_g__Hyphomicrobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Pedomicrobium; s__unclassified_g__Pedomicrobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Pedomicrobium; s__unclassified_g__Pedomicrobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Ensifer; s__unclassified_g__Ensifer
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__Bradyrhizobium; s__unclassified_g__Bradyrhizobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__Xanthobacter; s__unclassified_g__Xanthobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Magnetospirillaceae; g__Magnetospirillum; s__unclassified_g__Magnetospirillum
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__norank_f__Sphingomonadaceae; s__Sphingobium_sp._W1.09-106
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__norank_f__Sphingomonadaceae; s__unclassified_g__norank_f__Sphingomonadaceae
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Novosphingobium; s__unclassified_g__Novosphingobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Novosphingobium; s__unclassified_g__Novosphingobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Novosphingobium; s__unclassified_g__Novosphingobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Novosphingobium; s__unclassified_g__Novosphingobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Novosphingobium; s__unclassified_g__Novosphingobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingobium; s__unclassified_g__Sphingobium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__unclassified_g__Sphingomonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingosinicella; s__unclassified_g__Sphingosinicella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__unclassified_f__Sphingomonadaceae; s__unclassified_f__Sphingomonadaceae
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__unclassified_f__Sphingomonadaceae; s__unclassified_f__Sphingomonadaceae
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__unclassified_f__Sphingomonadaceae; s__unclassified_f__Sphingomonadaceae
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Achromobacter; s__unclassified_g__Achromobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Lautropia; s__unclassified_g__Lautropia
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Lautropia; s__unclassified_g__Lautropia
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Lautropia; s__unclassified_g__Lautropia
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Lautropia; s__unclassified_g__Lautropia
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Comamonas; s__unclassified_g__Comamonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Sphaerotilus; s__unclassified_g__Sphaerotilus
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Dechloromonas; s__unclassified_g__Dechloromonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Propionivibrio; s__unclassified_g__Propionivibrio
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Thauera; s__unclassified_g__Thauera
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Rhodocyclaceae; g__Zoogloea; s__unclassified_g__Zoogloea
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Legionellales; f__Legionellaceae; g__Legionella; s__unclassified_g__Legionella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Legionellales; f__Legionellaceae; g__Legionella; s__unclassified_g__Legionella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Legionellales; f__Legionellaceae; g__Legionella; s__unclassified_g__Legionella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Legionellales; f__Legionellaceae; g__Legionella; s__unclassified_g__Legionella
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Candidatus_Methylospira; s__unclassified_g__Candidatus_Methylospira
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylocaldum; s__Methylococcaceae_bacterium
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylocaldum; s__unclassified_g__Methylocaldum
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylocaldum; s__uncultured_bacterium_g__Methylocaldum
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylocaldum; s__uncultured_bacterium_g__Methylocaldum
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methyloparacoccus; s__Methyloparacoccus_murrellii
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylomonadaceae; g__Crenothrix; s__uncultured_bacterium_g__Crenothrix
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylomonadaceae; g__Methylomonas; s__unclassified_g__Methylomonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylomonadaceae; g__Methylosarcina; s__unclassified_g__Methylosarcina
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylomonadaceae; g__Methylovulum; s__uncultured_gamma_proteobacterium_g__Methylovulum
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Saccharospirillaceae; g__Oceanobacter; s__metagenome_g__Oceanobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__unclassified_g__Acinetobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__unclassified_g__Pseudomonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__unclassified_g__Pseudomonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Rhodanobacteraceae; g__Rhodanobacter; s__uncultured_Xanthomonadaceae_bacterium_g__Rhodanobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Xanthomonadaceae; g__Arenimonas; s__unclassified_g__Arenimonas
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Xanthomonadaceae; g__Lysobacter; s__unclassified_g__Lysobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Xanthomonadaceae; g__Stenotrophomonas; s__unclassified_g__Stenotrophomonas
+    d__Bacteria; k__norank_d__Bacteria; p__Spirochaetota; c__Spirochaetia; o__Spirochaetales; f__Spirochaetaceae; g__Spirochaeta; s__Spirochaeta_sp._g__Spirochaeta
+    d__Bacteria; k__norank_d__Bacteria; p__Spirochaetota; c__Spirochaetia; o__Spirochaetales; f__Spirochaetaceae; g__Spirochaeta; s__Spirochaeta_sp._g__Spirochaeta
+    d__Bacteria; k__norank_d__Bacteria; p__Spirochaetota; c__Spirochaetia; o__Spirochaetales; f__Spirochaetaceae; g__Spirochaeta; s__Spirochaeta_sp._g__Spirochaeta
+    d__Bacteria; k__norank_d__Bacteria; p__Spirochaetota; c__Spirochaetia; o__Spirochaetales; f__Spirochaetaceae; g__Spirochaeta; s__uncultured_bacterium_g__Spirochaeta
+    d__Bacteria; k__norank_d__Bacteria; p__Spirochaetota; c__Spirochaetia; o__Spirochaetales; f__Spirochaetaceae; g__Spirochaeta; s__uncultured_soil_bacterium_g__Spirochaeta
+    d__Bacteria; k__norank_d__Bacteria; p__Spirochaetota; c__Spirochaetia; o__Spirochaetales; f__Spirochaetaceae; g__Spirochaeta; s__uncultured_soil_bacterium_g__Spirochaeta
+    d__Bacteria; k__norank_d__Bacteria; p__Spirochaetota; c__Spirochaetia; o__Spirochaetales; f__Spirochaetaceae; g__Spirochaeta; s__uncultured_soil_bacterium_g__Spirochaeta
+    d__Bacteria; k__norank_d__Bacteria; p__Synergistota; c__Synergistia; o__Synergistales; f__Synergistaceae; g__Aminomonas; s__Aminomonas_paucivorans_DSM_12260
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiae; o__Chthoniobacterales; f__Chthoniobacteraceae; g__Chthoniobacter; s__unclassified_g__Chthoniobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiae; o__Verrucomicrobiales; f__Verrucomicrobiaceae; g__norank_f__Verrucomicrobiaceae; s__unclassified_g__norank_f__Verrucomicrobiaceae
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiae; o__Verrucomicrobiales; f__Verrucomicrobiaceae; g__norank_f__Verrucomicrobiaceae; s__uncultured_bacterium_g__norank_f__Verrucomicrobiaceae
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiae; o__Verrucomicrobiales; f__Verrucomicrobiaceae; g__norank_f__Verrucomicrobiaceae; s__uncultured_verrucomicrobium_DEV006
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiae; o__Verrucomicrobiales; f__Verrucomicrobiaceae; g__Prosthecobacter; s__Cenchrus_americanus_g__Prosthecobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiae; o__Verrucomicrobiales; f__Verrucomicrobiaceae; g__Prosthecobacter; s__unclassified_g__Prosthecobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiae; o__Verrucomicrobiales; f__Verrucomicrobiaceae; g__Prosthecobacter; s__unclassified_g__Prosthecobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiae; o__Verrucomicrobiales; f__Verrucomicrobiaceae; g__Prosthecobacter; s__unclassified_g__Prosthecobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiae; o__Verrucomicrobiales; f__Verrucomicrobiaceae; g__Prosthecobacter; s__unclassified_g__Prosthecobacter
+    d__Bacteria; k__norank_d__Bacteria; p__Verrucomicrobiota; c__Verrucomicrobiae; o__Verrucomicrobiales; f__Verrucomicrobiaceae; g__unclassified_f__Verrucomicrobiaceae; s__unclassified_f__Verrucomicrobiaceae
+
+
