@@ -1,0 +1,6 @@
+
+ASV表：	ASV_20230407_145001
+分类学水平：	 ASV
+选择样本：	All	
+		All: R1, R2, SS
+指数类型：	Sobs ACE Chao Shannon Simpson Coverage
