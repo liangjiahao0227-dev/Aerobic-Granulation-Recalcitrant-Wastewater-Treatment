@@ -1,0 +1,376 @@
+level3	Pathway_ID	Level2	Level1	SS	R1	R2
+2-Oxocarboxylic acid metabolism	ko01210	Global and overview maps	Metabolism	1178769.09	1236645.8	1158165.2
+ABC transporters	ko02010	Membrane transport	Environmental Information Processing	2829596.26	3884089.06	3211774.12
+AMPK signaling pathway	ko04152	Signal transduction	Environmental Information Processing	132183.72	160660.87	157026.84
+Acarbose and validamycin biosynthesis	ko00525	Biosynthesis of other secondary metabolites	Metabolism	151938.94	125157.03	122055.96
+Adipocytokine signaling pathway	ko04920	Endocrine system	Organismal Systems	130967.72	143042.96	136517.66
+Adrenergic signaling in cardiomyocytes	ko04261	Circulatory system	Organismal Systems	734	161.83	1320
+African trypanosomiasis	ko05143	Infectious disease: parasitic	Human Diseases	17629.48	11043.66	14125.1
+"Alanine, aspartate and glutamate metabolism"	ko00250	Amino acid metabolism	Metabolism	1109174.56	1160412.14	1077306.86
+Alcoholism	ko05034	Substance dependence	Human Diseases	13815.04	22879.14	16653.78
+Aldosterone synthesis and secretion	ko04925	Endocrine system	Organismal Systems	715	161.83	1320
+Aldosterone-regulated sodium reabsorption	ko04960	Excretory system	Organismal Systems	648	101.33	1296
+Alzheimer disease	ko05010	Neurodegenerative disease	Human Diseases	135873.17	186913.88	198853.85
+Amino sugar and nucleotide sugar metabolism	ko00520	Carbohydrate metabolism	Metabolism	1291102.66	1199602.93	1182853.28
+Aminoacyl-tRNA biosynthesis	ko00970	Translation	Genetic Information Processing	1363183.83	1306843.82	1234270.51
+Aminobenzoate degradation	ko00627	Xenobiotics biodegradation and metabolism	Metabolism	193801.02	283290.47	231272.81
+Amoebiasis	ko05146	Infectious disease: parasitic	Human Diseases	20431.9	35809.52	28747.09
+Amphetamine addiction	ko05031	Substance dependence	Human Diseases	13814.71	22794.97	16553.78
+Amyotrophic lateral sclerosis (ALS)	ko05014	Neurodegenerative disease	Human Diseases	91081.01	195708.14	167199.5
+Antifolate resistance	ko01523	Drug resistance: antineoplastic	Human Diseases	200566.12	233000.92	214455.01
+Antigen processing and presentation	ko04612	Immune system	Organismal Systems	32537.28	41080.69	37467.29
+Apelin signaling pathway	ko04371	Signal transduction	Environmental Information Processing	624	0.1	83
+Apoptosis	ko04210	Cell growth and death	Cellular Processes	41641.87	72476.03	82091.01
+Apoptosis - fly	ko04214	Cell growth and death	Cellular Processes	68994.8	98248.66	110215.28
+Apoptosis - multiple species	ko04215	Cell growth and death	Cellular Processes	33489.5	53618.83	66725.91
+Arabinogalactan biosynthesis - Mycobacterium	ko00572	Glycan biosynthesis and metabolism	Metabolism	29132.92	11286.84	13798.87
+Arachidonic acid metabolism	ko00590	Lipid metabolism	Metabolism	39300.52	85997.77	66427.04
+Arginine and proline metabolism	ko00330	Amino acid metabolism	Metabolism	654160.02	826839.26	697391.95
+Arginine biosynthesis	ko00220	Amino acid metabolism	Metabolism	676501.17	716680.33	659716.06
+Arrhythmogenic right ventricular cardiomyopathy (ARVC)	ko05412	Cardiovascular disease	Human Diseases	36	86	36
+Ascorbate and aldarate metabolism	ko00053	Carbohydrate metabolism	Metabolism	172228.12	298099.19	210114.27
+Atrazine degradation	ko00791	Xenobiotics biodegradation and metabolism	Metabolism	28914.05	67251.57	63642.88
+Autophagy - animal	ko04140	Transport and catabolism	Cellular Processes	624	0.1	83
+Autophagy - yeast	ko04138	Transport and catabolism	Cellular Processes	21385.67	19305.5	16217.7
+Axon guidance	ko04360	Development and regeneration	Organismal Systems	67	60.5	24
+Axon regeneration	ko04361	Development and regeneration	Organismal Systems	30520.87	40277.88	42811.8
+Bacterial chemotaxis	ko02030	Cell motility	Cellular Processes	530536.79	990431.04	906337.56
+Bacterial invasion of epithelial cells	ko05100	Infectious disease: bacterial	Human Diseases	435.12	806.53	1170.31
+Bacterial secretion system	ko03070	Membrane transport	Environmental Information Processing	922079.09	1288826.97	1146858.91
+Basal transcription factors	ko03022	Transcription	Genetic Information Processing	5164.97	1367.87	2096.77
+Base excision repair	ko03410	Replication and repair	Genetic Information Processing	513995.75	622479.29	538219.39
+Benzoate degradation	ko00362	Xenobiotics biodegradation and metabolism	Metabolism	457111.95	803185.92	676446.35
+Betalain biosynthesis	ko00965	Biosynthesis of other secondary metabolites	Metabolism	16938.56	34918.44	28143.77
+Bile secretion	ko04976	Digestive system	Organismal Systems	1157.9	735.33	1393.75
+Biofilm formation - Escherichia coli	ko02026	Cellular community - prokaryotes	Cellular Processes	337629.67	463635.79	450636.71
+Biofilm formation - Pseudomonas aeruginosa	ko02025	Cellular community - prokaryotes	Cellular Processes	299652.99	524853.97	500042.84
+Biofilm formation - Vibrio cholerae	ko05111	Cellular community - prokaryotes	Cellular Processes	445624.34	650867.42	703721.74
+Biosynthesis of amino acids	ko01230	Global and overview maps	Metabolism	5079171.4	5350191.23	4930597.19
+Biosynthesis of ansamycins	ko01051	Metabolism of terpenoids and polyketides	Metabolism	93414.37	83006.89	78813.63
+Biosynthesis of enediyne antibiotics	ko01059	Metabolism of terpenoids and polyketides	Metabolism	164	88.5	70.5
+Biosynthesis of secondary metabolites	ko01110	Global and overview maps	Metabolism	12427961.52	13853780.9	12561103.58
+Biosynthesis of siderophore group nonribosomal peptides	ko01053	Metabolism of terpenoids and polyketides	Metabolism	20722.04	27770.09	17875.52
+Biosynthesis of type II polyketide backbone	ko01056	Metabolism of terpenoids and polyketides	Metabolism	134	44	32
+Biosynthesis of type II polyketide products	ko01057	Metabolism of terpenoids and polyketides	Metabolism	4679	3160	2836
+Biosynthesis of unsaturated fatty acids	ko01040	Lipid metabolism	Metabolism	62408.55	101226.9	91643.14
+Biosynthesis of vancomycin group antibiotics	ko01055	Metabolism of terpenoids and polyketides	Metabolism	82491.68	68533.8	68369.8
+Biosynthesis of various secondary metabolites - part 1	ko00999	Biosynthesis of other secondary metabolites	Metabolism	12.5	0.1	2
+Biosynthesis of various secondary metabolites - part 2	ko00998	Biosynthesis of other secondary metabolites	Metabolism	73249.44	83614.79	87970.85
+Biosynthesis of various secondary metabolites - part 3	ko00997	Biosynthesis of other secondary metabolites	Metabolism	35	117	85
+Biotin metabolism	ko00780	Metabolism of cofactors and vitamins	Metabolism	539586.02	673898.77	619924.57
+Bisphenol degradation	ko00363	Xenobiotics biodegradation and metabolism	Metabolism	2081	644.5	397.5
+Bladder cancer	ko05219	Cancer: specific types	Human Diseases	5548.83	4258.2	5605.5
+Brassinosteroid biosynthesis	ko00905	Metabolism of terpenoids and polyketides	Metabolism	0.1	27	24
+Butanoate metabolism	ko00650	Carbohydrate metabolism	Metabolism	1033725.96	1294910.45	1145712.11
+C-type lectin receptor signaling pathway	ko04625	Immune system	Organismal Systems	190	44	32
+C5-Branched dibasic acid metabolism	ko00660	Carbohydrate metabolism	Metabolism	408826.86	394212.68	387818.84
+Caffeine metabolism	ko00232	Biosynthesis of other secondary metabolites	Metabolism	161.75	401.25	367
+Calcium signaling pathway	ko04020	Signal transduction	Environmental Information Processing	362	256	217.33
+Caprolactam degradation	ko00930	Xenobiotics biodegradation and metabolism	Metabolism	100504	164757.86	121477.41
+Carbapenem biosynthesis	ko00332	Biosynthesis of other secondary metabolites	Metabolism	77242.2	84068.38	76264.08
+Carbohydrate digestion and absorption	ko04973	Digestive system	Organismal Systems	2616.66	9280.43	5388.5
+Carbon fixation in photosynthetic organisms	ko00710	Energy metabolism	Metabolism	657885.81	664008.01	645098.24
+Carbon fixation pathways in prokaryotes	ko00720	Energy metabolism	Metabolism	1429312.2	1385895.43	1347124.94
+Carbon metabolism	ko01200	Global and overview maps	Metabolism	4254076.07	4603267.58	4217966.53
+Cardiac muscle contraction	ko04260	Circulatory system	Organismal Systems	39378.4	71547.73	69270.9
+Carotenoid biosynthesis	ko00906	Metabolism of terpenoids and polyketides	Metabolism	71669.36	91476.85	76753.19
+Cationic antimicrobial peptide (CAMP) resistance	ko01503	Drug resistance: antimicrobial	Human Diseases	296861.15	477728.77	426587.14
+Cell adhesion molecules (CAMs)	ko04514	Signaling molecules and interaction	Environmental Information Processing	3	0.1	0.1
+Cell cycle	ko04110	Cell growth and death	Cellular Processes	639.75	6.75	96.75
+Cell cycle - Caulobacter	ko04112	Cell growth and death	Cellular Processes	700623.11	701761.25	650041.6
+Cell cycle - yeast	ko04111	Cell growth and death	Cellular Processes	15.75	6.75	13.75
+Cellular senescence	ko04218	Cell growth and death	Cellular Processes	19	0.1	0.1
+Central carbon metabolism in cancer	ko05230	Cancer: overview	Human Diseases	296274.99	241798.81	232320.08
+Chagas disease (American trypanosomiasis)	ko05142	Infectious disease: parasitic	Human Diseases	13961.32	15936.33	14819.34
+Chemical carcinogenesis	ko05204	Cancer: overview	Human Diseases	96774.57	230411.04	162202.54
+Chloroalkane and chloroalkene degradation	ko00625	Xenobiotics biodegradation and metabolism	Metabolism	172404.56	237743.75	199959.17
+Chlorocyclohexane and chlorobenzene degradation	ko00361	Xenobiotics biodegradation and metabolism	Metabolism	85649.17	146045.18	133044.67
+Choline metabolism in cancer	ko05231	Cancer: overview	Human Diseases	25658.71	36392.16	37594.6
+Cholinergic synapse	ko04725	Nervous system	Organismal Systems	67	60.5	24
+Chronic myeloid leukemia	ko05220	Cancer: specific types	Human Diseases	526.34	542.17	403.32
+Circadian entrainment	ko04713	Environmental adaptation	Organismal Systems	67	60.5	24
+Citrate cycle (TCA cycle)	ko00020	Carbohydrate metabolism	Metabolism	1090097.82	1133042.18	1075453.5
+Cocaine addiction	ko05030	Substance dependence	Human Diseases	13728.71	22734.47	16529.78
+Colorectal cancer	ko05210	Cancer: specific types	Human Diseases	33489.5	53618.83	66725.91
+Cushing syndrome	ko04934	Endocrine and metabolic disease	Human Diseases	45446.49	48183.56	44523.17
+Cyanoamino acid metabolism	ko00460	Metabolism of other amino acids	Metabolism	227556.02	317650.67	252125.57
+Cysteine and methionine metabolism	ko00270	Amino acid metabolism	Metabolism	1289967.8	1586145.58	1385929.35
+Cytosolic DNA-sensing pathway	ko04623	Immune system	Organismal Systems	16	0.1	13
+D-Alanine metabolism	ko00473	Metabolism of other amino acids	Metabolism	130329.53	127946.58	122101.23
+D-Arginine and D-ornithine metabolism	ko00472	Metabolism of other amino acids	Metabolism	16327.7	26911.05	25924.83
+D-Glutamine and D-glutamate metabolism	ko00471	Metabolism of other amino acids	Metabolism	189910.61	202607.11	184759.17
+DNA replication	ko03030	Replication and repair	Genetic Information Processing	789422.24	815550.11	778375.57
+Degradation of aromatic compounds	ko01220	Global and overview maps	Metabolism	258975.29	449583.97	365871.05
+Dilated cardiomyopathy (DCM)	ko05414	Cardiovascular disease	Human Diseases	36	86	36
+Dioxin degradation	ko00621	Xenobiotics biodegradation and metabolism	Metabolism	31518.39	64375.23	63657.41
+Dopaminergic synapse	ko04728	Nervous system	Organismal Systems	14013.71	22846.97	16585.78
+Drug metabolism - cytochrome P450	ko00982	Xenobiotics biodegradation and metabolism	Metabolism	131991.65	290174.65	204993.58
+Drug metabolism - other enzymes	ko00983	Xenobiotics biodegradation and metabolism	Metabolism	493218.5	596425.97	506968.02
+ECM-receptor interaction	ko04512	Signaling molecules and interaction	Environmental Information Processing	36	86	36
+EGFR tyrosine kinase inhibitor resistance	ko01521	Drug resistance: antineoplastic	Human Diseases	624	0.1	83
+Endocrine and other factor-regulated calcium reabsorption	ko04961	Excretory system	Organismal Systems	648	101.33	1296
+Endocytosis	ko04144	Transport and catabolism	Cellular Processes	697.17	1042.5	342
+Epithelial cell signaling in Helicobacter pylori infection	ko05120	Infectious disease: bacterial	Human Diseases	43905.42	82579.88	77577.21
+Epstein-Barr virus infection	ko05169	Infectious disease: viral	Human Diseases	33489.5	53618.83	66725.91
+ErbB signaling pathway	ko04012	Signal transduction	Environmental Information Processing	67	60.5	24
+Estrogen signaling pathway	ko04915	Endocrine system	Organismal Systems	32537.28	41080.69	37467.29
+Ether lipid metabolism	ko00565	Lipid metabolism	Metabolism	10600.56	64208.4	30383.49
+Ethylbenzene degradation	ko00642	Xenobiotics biodegradation and metabolism	Metabolism	40609.42	92795.19	69057.36
+Fanconi anemia pathway	ko03460	Replication and repair	Genetic Information Processing	1537	0.1	205
+Fat digestion and absorption	ko04975	Digestive system	Organismal Systems	17	35	66
+Fatty acid biosynthesis	ko00061	Lipid metabolism	Metabolism	798607.4	996759.02	875813.14
+Fatty acid degradation	ko00071	Lipid metabolism	Metabolism	642319.04	903484.73	739352.33
+Fatty acid elongation	ko00062	Lipid metabolism	Metabolism	381.92	5432.76	2763.93
+Fatty acid metabolism	ko01212	Global and overview maps	Metabolism	1165229.66	1574228.3	1349735.32
+Fc gamma R-mediated phagocytosis	ko04666	Immune system	Organismal Systems	659.5	1035.5	326
+Ferroptosis	ko04216	Cell growth and death	Cellular Processes	125027.86	122744.73	116305.59
+Flagellar assembly	ko02040	Cell motility	Cellular Processes	711628.36	941319.33	951896.76
+Flavone and flavonol biosynthesis	ko00944	Biosynthesis of other secondary metabolites	Metabolism	3303.33	990	2188.5
+Flavonoid biosynthesis	ko00941	Biosynthesis of other secondary metabolites	Metabolism	2566.83	6050.02	4383.51
+Fluid shear stress and atherosclerosis	ko05418	Cardiovascular disease	Human Diseases	245808.71	382644.96	313660.93
+Fluorobenzoate degradation	ko00364	Xenobiotics biodegradation and metabolism	Metabolism	50599.67	100943.78	75976
+Focal adhesion	ko04510	Cellular community - eukaryotes	Cellular Processes	55	86	36
+Folate biosynthesis	ko00790	Metabolism of cofactors and vitamins	Metabolism	871408.06	1010090.28	938305.35
+FoxO signaling pathway	ko04068	Signal transduction	Environmental Information Processing	80349.78	144887.64	107638.77
+Fructose and mannose metabolism	ko00051	Carbohydrate metabolism	Metabolism	639648.79	622038.37	580424.5
+Furfural degradation	ko00365	Xenobiotics biodegradation and metabolism	Metabolism	533	377	488.83
+GABAergic synapse	ko04727	Nervous system	Organismal Systems	104962.11	84710.81	80446.07
+Galactose metabolism	ko00052	Carbohydrate metabolism	Metabolism	511093.33	521258.44	448322.99
+Gap junction	ko04540	Cellular community - eukaryotes	Cellular Processes	27	7	16
+Gastric acid secretion	ko04971	Digestive system	Organismal Systems	715	161.83	1320
+Gastric cancer	ko05226	Cancer: specific types	Human Diseases	0.1	43	0.1
+Geraniol degradation	ko00281	Metabolism of terpenoids and polyketides	Metabolism	139625.87	241661.89	197789.46
+Glioma	ko05214	Cancer: specific types	Human Diseases	67	60.5	24
+Glucagon signaling pathway	ko04922	Endocrine system	Organismal Systems	324236.55	280554.41	278842.5
+Glucosinolate biosynthesis	ko00966	Biosynthesis of other secondary metabolites	Metabolism	140082.73	141280.2	128083.46
+Glutamatergic synapse	ko04724	Nervous system	Organismal Systems	102593.36	82702.27	77328.55
+Glutathione metabolism	ko00480	Metabolism of other amino acids	Metabolism	501306.43	847067.6	689545.86
+Glycerolipid metabolism	ko00561	Lipid metabolism	Metabolism	390245.76	445769.41	377973.2
+Glycerophospholipid metabolism	ko00564	Lipid metabolism	Metabolism	616872.84	842272.31	706672.21
+"Glycine, serine and threonine metabolism"	ko00260	Amino acid metabolism	Metabolism	1369241.5	1582986.26	1362039.54
+Glycolysis / Gluconeogenesis	ko00010	Carbohydrate metabolism	Metabolism	1452572.62	1401962.9	1331494.97
+Glycosaminoglycan degradation	ko00531	Glycan biosynthesis and metabolism	Metabolism	62833.65	70452.1	61943.3
+Glycosphingolipid biosynthesis - ganglio series	ko00604	Glycan biosynthesis and metabolism	Metabolism	17449.38	26137.38	19957.75
+Glycosphingolipid biosynthesis - globo and isoglobo series	ko00603	Glycan biosynthesis and metabolism	Metabolism	50856.12	57780.43	41394.62
+Glyoxylate and dicarboxylate metabolism	ko00630	Carbohydrate metabolism	Metabolism	1456130.79	1732685.73	1562286.46
+GnRH signaling pathway	ko04912	Endocrine system	Organismal Systems	726.5	1096	350
+HIF-1 signaling pathway	ko04066	Signal transduction	Environmental Information Processing	339101.51	282904.02	284808.43
+Hematopoietic cell lineage	ko04640	Immune system	Organismal Systems	213	173	73
+Hepatitis B	ko05161	Infectious disease: viral	Human Diseases	34113.5	53618.83	66808.91
+Hepatitis C	ko05160	Infectious disease: viral	Human Diseases	34113.5	53618.83	66808.91
+Hepatocellular carcinoma	ko05225	Cancer: specific types	Human Diseases	74959.8	199076.46	141596.1
+Herpes simplex virus 1 infection	ko05168	Infectious disease: viral	Human Diseases	34193.5	53751.33	67160.41
+Hippo signaling pathway	ko04390	Signal transduction	Environmental Information Processing	19	0.1	0.1
+Histidine metabolism	ko00340	Amino acid metabolism	Metabolism	696238.61	837206.37	708640.52
+Homologous recombination	ko03440	Replication and repair	Genetic Information Processing	1060974.17	1082723.75	1032344.46
+Human T-cell leukemia virus 1 infection	ko05166	Infectious disease: viral	Human Diseases	791	0.1	93
+Human cytomegalovirus infection	ko05163	Infectious disease: viral	Human Diseases	33715.5	53748.83	66793.91
+Human immunodeficiency virus 1 infection	ko05170	Infectious disease: viral	Human Diseases	33489.5	53618.83	66725.91
+Human papillomavirus infection	ko05165	Infectious disease: viral	Human Diseases	59516.65	52830.26	54828.71
+Huntington disease	ko05016	Neurodegenerative disease	Human Diseases	170580.46	294948.48	268148.11
+Hypertrophic cardiomyopathy (HCM)	ko05410	Cardiovascular disease	Human Diseases	1375.34	6594.7	4315.01
+IL-17 signaling pathway	ko04657	Immune system	Organismal Systems	32730.78	41124.69	37499.29
+Indole alkaloid biosynthesis	ko00901	Biosynthesis of other secondary metabolites	Metabolism	5526.33	4407.2	4645.19
+Inflammatory mediator regulation of TRP channels	ko04750	Sensory system	Organismal Systems	86	60.5	24
+Influenza A	ko05164	Infectious disease: viral	Human Diseases	34185.5	53847.83	66947.91
+Inositol phosphate metabolism	ko00562	Carbohydrate metabolism	Metabolism	193769.81	245454.69	189305.33
+Insect hormone biosynthesis	ko00981	Metabolism of terpenoids and polyketides	Metabolism	75106.78	105431.58	77341.23
+Insulin resistance	ko04931	Endocrine and metabolic disease	Human Diseases	129316.13	109344.88	107866.21
+Insulin secretion	ko04911	Endocrine system	Organismal Systems	715	161.83	1320
+Insulin signaling pathway	ko04910	Endocrine system	Organismal Systems	75864.66	97735.54	89916.06
+Isoflavonoid biosynthesis	ko00943	Biosynthesis of other secondary metabolites	Metabolism	618	1809	1421
+Isoquinoline alkaloid biosynthesis	ko00950	Biosynthesis of other secondary metabolites	Metabolism	74718.11	101902.57	84892.64
+Kaposi sarcoma-associated herpesvirus infection	ko05167	Infectious disease: viral	Human Diseases	33679.5	53662.83	66757.91
+Legionellosis	ko05134	Infectious disease: bacterial	Human Diseases	246136.91	292842.7	279587.5
+Leishmaniasis	ko05140	Infectious disease: parasitic	Human Diseases	936	44	118
+Limonene and pinene degradation	ko00903	Metabolism of terpenoids and polyketides	Metabolism	142189.93	195852.8	153305.24
+Linoleic acid metabolism	ko00591	Lipid metabolism	Metabolism	15743.16	41989.25	25811.58
+Lipoarabinomannan (LAM) biosynthesis	ko00571	Glycan biosynthesis and metabolism	Metabolism	18469.84	11089.55	8600.52
+Lipoic acid metabolism	ko00785	Metabolism of cofactors and vitamins	Metabolism	115408.98	104656.27	101379.48
+Lipopolysaccharide biosynthesis	ko00540	Glycan biosynthesis and metabolism	Metabolism	585600.33	732021.8	701581.9
+Long-term potentiation	ko04720	Nervous system	Organismal Systems	86	60.5	24
+Longevity regulating pathway	ko04211	Aging	Organismal Systems	68018.03	122712	85626.75
+Longevity regulating pathway - multiple species	ko04213	Aging	Organismal Systems	162777.47	254961.83	197329.1
+Longevity regulating pathway - worm	ko04212	Aging	Organismal Systems	362280.72	579971.23	454095.9
+Lysine biosynthesis	ko00300	Amino acid metabolism	Metabolism	647167.27	705258.12	628626.88
+Lysine degradation	ko00310	Amino acid metabolism	Metabolism	531258.44	719493.85	600157.09
+Lysosome	ko04142	Transport and catabolism	Cellular Processes	77140.04	129870.32	90781.27
+MAPK signaling pathway - fly	ko04013	Signal transduction	Environmental Information Processing	53044.04	75043.97	58661.73
+MAPK signaling pathway - plant	ko04016	Signal transduction	Environmental Information Processing	135155.29	177822.13	152933.64
+MAPK signaling pathway - yeast	ko04011	Signal transduction	Environmental Information Processing	15000.99	47675.03	26981.02
+Measles	ko05162	Infectious disease: viral	Human Diseases	34113.5	53618.83	66808.91
+Meiosis - yeast	ko04113	Cell growth and death	Cellular Processes	36620.18	56705.1	45218.26
+Melanogenesis	ko04916	Endocrine system	Organismal Systems	102.5	1031	310.25
+Metabolic pathways	ko01100	Global and overview maps	Metabolism	25696140.81	30200599.93	27032809.34
+Metabolism of xenobiotics by cytochrome P450	ko00980	Xenobiotics biodegradation and metabolism	Metabolism	124861.27	272215.38	193782.74
+Methane metabolism	ko00680	Energy metabolism	Metabolism	1085189.95	969543.45	977484.96
+MicroRNAs in cancer	ko05206	Cancer: overview	Human Diseases	30123.48	55733.14	34919.08
+Microbial metabolism in diverse environments	ko01120	Global and overview maps	Metabolism	6974446.91	8451204.44	7593353.02
+Mineral absorption	ko04978	Digestive system	Organismal Systems	17816.29	25362.22	29009.97
+Mismatch repair	ko03430	Replication and repair	Genetic Information Processing	897812.48	964593.68	900304.12
+Monobactam biosynthesis	ko00261	Biosynthesis of other secondary metabolites	Metabolism	307350.66	414463.39	337340.45
+Monoterpenoid biosynthesis	ko00902	Metabolism of terpenoids and polyketides	Metabolism	27	61	7
+N-Glycan biosynthesis	ko00510	Glycan biosynthesis and metabolism	Metabolism	67557.76	54950.24	46827.69
+NF-kappa B signaling pathway	ko04064	Signal transduction	Environmental Information Processing	190	44	32
+NOD-like receptor signaling pathway	ko04621	Immune system	Organismal Systems	148894.62	191396	171363.58
+Naphthalene degradation	ko00626	Xenobiotics biodegradation and metabolism	Metabolism	69683.04	145388.19	86041.99
+Necroptosis	ko04217	Cell growth and death	Cellular Processes	221853.39	232706.74	208887.83
+"Neomycin, kanamycin and gentamicin biosynthesis"	ko00524	Biosynthesis of other secondary metabolites	Metabolism	72029.11	72024.42	61897.93
+Neuroactive ligand-receptor interaction	ko04080	Signaling molecules and interaction	Environmental Information Processing	36	143	103
+Neurotrophin signaling pathway	ko04722	Nervous system	Organismal Systems	67	60.5	24
+Nicotinate and nicotinamide metabolism	ko00760	Metabolism of cofactors and vitamins	Metabolism	671125.92	862953.68	720077.68
+Nitrogen metabolism	ko00910	Energy metabolism	Metabolism	472949.82	637667.22	635371.06
+Nitrotoluene degradation	ko00633	Xenobiotics biodegradation and metabolism	Metabolism	42549.32	67129.61	78061.99
+Non-alcoholic fatty liver disease (NAFLD)	ko04932	Endocrine and metabolic disease	Human Diseases	74697.9	125472.23	135935.81
+Non-homologous end-joining	ko03450	Replication and repair	Genetic Information Processing	26373.05	82249.71	40588.79
+Nonribosomal peptide structures	ko01054	Metabolism of terpenoids and polyketides	Metabolism	9916.17	16429.9	9617.08
+Notch signaling pathway	ko04330	Signal transduction	Environmental Information Processing	526.34	542.17	403.32
+Novobiocin biosynthesis	ko00401	Biosynthesis of other secondary metabolites	Metabolism	169650.57	195242.25	174844.16
+Nucleotide excision repair	ko03420	Replication and repair	Genetic Information Processing	441169.45	498212.39	450234.9
+Olfactory transduction	ko04740	Sensory system	Organismal Systems	67	60.5	24
+One carbon pool by folate	ko00670	Metabolism of cofactors and vitamins	Metabolism	586376.53	610337.06	570689.77
+Oocyte meiosis	ko04114	Cell growth and death	Cellular Processes	86	60.5	24
+Osteoclast differentiation	ko04380	Development and regeneration	Organismal Systems	36	86	36
+Other glycan degradation	ko00511	Glycan biosynthesis and metabolism	Metabolism	101165.25	181192.11	120284.39
+Ovarian steroidogenesis	ko04913	Endocrine system	Organismal Systems	190	44	32
+Oxidative phosphorylation	ko00190	Energy metabolism	Metabolism	2014870.98	2171241.39	1957679.89
+Oxytocin signaling pathway	ko04921	Endocrine system	Organismal Systems	900	104.5	139
+PI3K-Akt signaling pathway	ko04151	Signal transduction	Environmental Information Processing	45588.03	65324.33	60438.31
+PPAR signaling pathway	ko03320	Endocrine system	Organismal Systems	286324.82	409582.14	349292.85
+Pancreatic cancer	ko05212	Cancer: specific types	Human Diseases	668.5	1035.5	339
+Pancreatic secretion	ko04972	Digestive system	Organismal Systems	2550.66	9407.43	5478
+Pantothenate and CoA biosynthesis	ko00770	Metabolism of cofactors and vitamins	Metabolism	765621.47	802426.72	734711.71
+"Parathyroid hormone synthesis, secretion and action"	ko04928	Endocrine system	Organismal Systems	1554	3539.5	1191
+Parkinson disease	ko05012	Neurodegenerative disease	Human Diseases	75051.9	125825.23	136497.81
+Pathogenic Escherichia coli infection	ko05130	Infectious disease: bacterial	Human Diseases	94287.43	114947.48	129576.95
+Pathways in cancer	ko05200	Cancer: overview	Human Diseases	187817.91	343581.21	291086.79
+Penicillin and cephalosporin biosynthesis	ko00311	Biosynthesis of other secondary metabolites	Metabolism	48091.76	104497.98	64891.79
+Pentose and glucuronate interconversions	ko00040	Carbohydrate metabolism	Metabolism	275728.78	344434.71	282194.88
+Pentose phosphate pathway	ko00030	Carbohydrate metabolism	Metabolism	908070.63	931512.05	818244.32
+Peptidoglycan biosynthesis	ko00550	Glycan biosynthesis and metabolism	Metabolism	910744.4	932189.7	860438.67
+Peroxisome	ko04146	Transport and catabolism	Cellular Processes	323451.5	451874.98	383263.65
+Pertussis	ko05133	Infectious disease: bacterial	Human Diseases	35085.32	51173.8	43023.26
+Phagosome	ko04145	Transport and catabolism	Cellular Processes	703	93	148
+Phenazine biosynthesis	ko00405	Biosynthesis of other secondary metabolites	Metabolism	99596.14	100308.98	94087.41
+Phenylalanine metabolism	ko00360	Amino acid metabolism	Metabolism	533600.22	868997.63	709777.43
+"Phenylalanine, tyrosine and tryptophan biosynthesis"	ko00400	Amino acid metabolism	Metabolism	977836.36	1026929.75	961164.7
+Phenylpropanoid biosynthesis	ko00940	Biosynthesis of other secondary metabolites	Metabolism	110234.61	125620.98	117675.13
+Phosphatidylinositol signaling system	ko04070	Signal transduction	Environmental Information Processing	152129.95	165005.32	156897.56
+Phospholipase D signaling pathway	ko04072	Signal transduction	Environmental Information Processing	25642.71	36427.16	37660.6
+Phosphonate and phosphinate metabolism	ko00440	Metabolism of other amino acids	Metabolism	52767.4	73863.99	59153.8
+Phosphotransferase system (PTS)	ko02060	Membrane transport	Environmental Information Processing	90351.8	139103.74	113576.31
+Photosynthesis	ko00195	Energy metabolism	Metabolism	430567.66	422782.7	396961.82
+Phototransduction - fly	ko04745	Sensory system	Organismal Systems	67	60.5	24
+Plant hormone signal transduction	ko04075	Signal transduction	Environmental Information Processing	6	0.1	0.1
+Plant-pathogen interaction	ko04626	Environmental adaptation	Organismal Systems	211147.18	269618.88	242137.73
+Platelet activation	ko04611	Immune system	Organismal Systems	55	86	36
+Platinum drug resistance	ko01524	Drug resistance: antineoplastic	Human Diseases	174235.49	331471.17	283818.01
+Polycyclic aromatic hydrocarbon degradation	ko00624	Xenobiotics biodegradation and metabolism	Metabolism	18131.34	53070.33	27523.9
+Polyketide sugar unit biosynthesis	ko00523	Metabolism of terpenoids and polyketides	Metabolism	251813.06	226710.8	219214.94
+Porphyrin and chlorophyll metabolism	ko00860	Metabolism of cofactors and vitamins	Metabolism	1003903.49	1238109.25	1170663.13
+Primary bile acid biosynthesis	ko00120	Lipid metabolism	Metabolism	10382.63	4111.05	6613.27
+Primary immunodeficiency	ko05340	Immune disease	Human Diseases	33889.31	70448.56	50309.18
+Prion diseases	ko05020	Neurodegenerative disease	Human Diseases	7046.33	24747.09	15680.11
+Prodigiosin biosynthesis	ko00333	Biosynthesis of other secondary metabolites	Metabolism	297660.82	334606.65	300702.59
+Progesterone-mediated oocyte maturation	ko04914	Endocrine system	Organismal Systems	32537.28	41080.69	37467.29
+Prolactin signaling pathway	ko04917	Endocrine system	Organismal Systems	17119.69	6944.55	8698.19
+Propanoate metabolism	ko00640	Carbohydrate metabolism	Metabolism	1057940.64	1201249.2	1110349.38
+Prostate cancer	ko05215	Cancer: specific types	Human Diseases	32537.28	41080.69	37467.29
+Proteasome	ko03050	"Folding, sorting and degradation"	Genetic Information Processing	15870	3624	6546.75
+Protein digestion and absorption	ko04974	Digestive system	Organismal Systems	22273.83	32500.94	27350.75
+Protein export	ko03060	"Folding, sorting and degradation"	Genetic Information Processing	775539.28	748624.6	720083.33
+Protein processing in endoplasmic reticulum	ko04141	"Folding, sorting and degradation"	Genetic Information Processing	115979.32	102158.79	105454.36
+Proteoglycans in cancer	ko05205	Cancer: overview	Human Diseases	53406.18	49857.86	47612.04
+Proximal tubule bicarbonate reclamation	ko04964	Excretory system	Organismal Systems	51269.42	67861.23	62433.2
+Purine metabolism	ko00230	Nucleotide metabolism	Metabolism	2015546.78	2313846.3	2108752.3
+Pyrimidine metabolism	ko00240	Nucleotide metabolism	Metabolism	1351985.52	1417639.13	1284770.18
+Pyruvate metabolism	ko00620	Carbohydrate metabolism	Metabolism	1501030	1764588.89	1597561.39
+Quorum sensing	ko02024	Cellular community - prokaryotes	Cellular Processes	2204613.12	2726161.9	2309794.66
+RIG-I-like receptor signaling pathway	ko04622	Immune system	Organismal Systems	697.65	2108.08	1060.25
+RNA degradation	ko03018	"Folding, sorting and degradation"	Genetic Information Processing	724110.52	747817.27	714722.25
+RNA polymerase	ko03020	Transcription	Genetic Information Processing	191342.64	184100.61	175209.98
+RNA transport	ko03013	Translation	Genetic Information Processing	77847.55	84064.62	71599.23
+Rap1 signaling pathway	ko04015	Signal transduction	Environmental Information Processing	36	86	36
+Ras signaling pathway	ko04014	Signal transduction	Environmental Information Processing	659.5	1035.5	326
+Regulation of actin cytoskeleton	ko04810	Cell motility	Cellular Processes	55	86	36
+Regulation of lipolysis in adipocytes	ko04923	Endocrine system	Organismal Systems	190	44	32
+Renal cell carcinoma	ko05211	Cancer: specific types	Human Diseases	45379.49	48123.06	44499.17
+Renin secretion	ko04924	Endocrine system	Organismal Systems	1339.34	6508.7	4279.01
+Renin-angiotensin system	ko04614	Endocrine system	Organismal Systems	22207.63	39655.71	30460.14
+Retinol metabolism	ko00830	Metabolism of cofactors and vitamins	Metabolism	52638.2	81556.95	57864.47
+Retrograde endocannabinoid signaling	ko04723	Nervous system	Organismal Systems	2145.33	1006.02	2093.01
+Riboflavin metabolism	ko00740	Metabolism of cofactors and vitamins	Metabolism	263130.65	318982.39	281547.07
+Ribosome	ko03010	Translation	Genetic Information Processing	2823392.16	2680944.23	2554716.22
+Ribosome biogenesis in eukaryotes	ko03008	Translation	Genetic Information Processing	75474.34	76737.95	74759.54
+Salivary secretion	ko04970	Digestive system	Organismal Systems	651.5	101.33	1296
+Salmonella infection	ko05132	Infectious disease: bacterial	Human Diseases	241784.7	301902.98	298748.41
+Secondary bile acid biosynthesis	ko00121	Lipid metabolism	Metabolism	36625.92	58227.9	51460.63
+Selenocompound metabolism	ko00450	Metabolism of other amino acids	Metabolism	476354.18	513982.38	466646.45
+Serotonergic synapse	ko04726	Nervous system	Organismal Systems	12951.71	22429.47	15919.78
+Sesquiterpenoid and triterpenoid biosynthesis	ko00909	Metabolism of terpenoids and polyketides	Metabolism	7654.92	11078.63	8676.88
+Shigellosis	ko05131	Infectious disease: bacterial	Human Diseases	63483.51	106815.36	111188.82
+Signaling pathways regulating pluripotency of stem cells	ko04550	Cellular community - eukaryotes	Cellular Processes	0.1	6	0.1
+Small cell lung cancer	ko05222	Cancer: specific types	Human Diseases	33679.5	53662.83	66757.91
+Sphingolipid metabolism	ko00600	Lipid metabolism	Metabolism	90786.61	117574.16	84018.8
+Sphingolipid signaling pathway	ko04071	Signal transduction	Environmental Information Processing	1192.83	3674.02	2102.01
+Spinocerebellar ataxia	ko05017	Neurodegenerative disease	Human Diseases	2366.86	53.75	434.25
+Spliceosome	ko03040	Transcription	Genetic Information Processing	1018	361	651
+Staphylococcus aureus infection	ko05150	Infectious disease: bacterial	Human Diseases	2296.89	7818.6	5169.77
+Starch and sucrose metabolism	ko00500	Carbohydrate metabolism	Metabolism	736399.78	816535.61	686445.87
+Staurosporine biosynthesis	ko00404	Biosynthesis of other secondary metabolites	Metabolism	2147.5	4039	2281.5
+Steroid biosynthesis	ko00100	Lipid metabolism	Metabolism	2825.57	1512.43	1794.58
+Steroid degradation	ko00984	Xenobiotics biodegradation and metabolism	Metabolism	14167.5	10866.86	9944.77
+Steroid hormone biosynthesis	ko00140	Lipid metabolism	Metabolism	26888.5	25127.59	23200.06
+"Stilbenoid, diarylheptanoid and gingerol biosynthesis"	ko00945	Biosynthesis of other secondary metabolites	Metabolism	2566.83	6050.02	4383.51
+Streptomycin biosynthesis	ko00521	Biosynthesis of other secondary metabolites	Metabolism	456674.03	423185.61	404653.87
+Styrene degradation	ko00643	Xenobiotics biodegradation and metabolism	Metabolism	112111.7	163428.72	136145.89
+Sulfur metabolism	ko00920	Energy metabolism	Metabolism	624609.92	868333.52	773075.04
+Sulfur relay system	ko04122	"Folding, sorting and degradation"	Genetic Information Processing	428505.38	451445.81	444136.24
+Synaptic vesicle cycle	ko04721	Nervous system	Organismal Systems	32.67	1	7.5
+Synthesis and degradation of ketone bodies	ko00072	Lipid metabolism	Metabolism	211777.98	325584.22	251198.7
+Systemic lupus erythematosus	ko05322	Immune disease	Human Diseases	1697.25	2268.28	2249.94
+TNF signaling pathway	ko04668	Signal transduction	Environmental Information Processing	190	44	32
+Taurine and hypotaurine metabolism	ko00430	Metabolism of other amino acids	Metabolism	178454.96	190681.25	171089.86
+Terpenoid backbone biosynthesis	ko00900	Metabolism of terpenoids and polyketides	Metabolism	687289.1	692604.3	647804.95
+Tetracycline biosynthesis	ko00253	Metabolism of terpenoids and polyketides	Metabolism	908.5	1641	1217
+Th17 cell differentiation	ko04659	Immune system	Organismal Systems	32537.28	41080.69	37467.29
+Thermogenesis	ko04714	Environmental adaptation	Organismal Systems	209123.28	261339.97	244575.62
+Thiamine metabolism	ko00730	Metabolism of cofactors and vitamins	Metabolism	435697.33	499001.07	461893.36
+Thyroid hormone signaling pathway	ko04919	Endocrine system	Organismal Systems	4769	40333.59	18050.03
+Thyroid hormone synthesis	ko04918	Endocrine system	Organismal Systems	44335.19	75030.62	66775.63
+Tight junction	ko04530	Cellular community - eukaryotes	Cellular Processes	651	7	99
+Toll and Imd signaling pathway	ko04624	Immune system	Organismal Systems	6	3	0.1
+Toluene degradation	ko00623	Xenobiotics biodegradation and metabolism	Metabolism	57099.17	102658.37	99491
+Toxoplasmosis	ko05145	Infectious disease: parasitic	Human Diseases	33500.5	53622.83	66728.91
+"Tropane, piperidine and pyridine alkaloid biosynthesis"	ko00960	Biosynthesis of other secondary metabolites	Metabolism	132951.82	173555.61	147374.89
+Tryptophan metabolism	ko00380	Amino acid metabolism	Metabolism	579350.65	872758.89	694428.99
+Tuberculosis	ko05152	Infectious disease: bacterial	Human Diseases	241140.79	255915.41	257234.97
+Two-component system	ko02020	Signal transduction	Environmental Information Processing	2516248.63	3799340.59	3550830.48
+Type I diabetes mellitus	ko04940	Endocrine and metabolic disease	Human Diseases	70372.78	66723.23	62358.12
+Type I polyketide structures	ko01052	Metabolism of terpenoids and polyketides	Metabolism	77.75	5034.75	2158.75
+Type II diabetes mellitus	ko04930	Endocrine and metabolic disease	Human Diseases	58601.65	52716.26	54681.21
+Tyrosine metabolism	ko00350	Amino acid metabolism	Metabolism	341665.88	610344.84	445204.46
+Ubiquinone and other terpenoid-quinone biosynthesis	ko00130	Metabolism of cofactors and vitamins	Metabolism	378646.68	425990.47	444292.57
+VEGF signaling pathway	ko04370	Signal transduction	Environmental Information Processing	190	44	32
+"Valine, leucine and isoleucine biosynthesis"	ko00290	Amino acid metabolism	Metabolism	644836.52	703119.31	635540.88
+"Valine, leucine and isoleucine degradation"	ko00280	Amino acid metabolism	Metabolism	986985.16	1443261.49	1155212.43
+Vancomycin resistance	ko01502	Drug resistance: antimicrobial	Human Diseases	287366.89	277240.86	260830.93
+Various types of N-glycan biosynthesis	ko00513	Glycan biosynthesis and metabolism	Metabolism	18423.38	26428.38	20120.75
+Vascular smooth muscle contraction	ko04270	Circulatory system	Organismal Systems	19	0.1	0.1
+Vasopressin-regulated water reabsorption	ko04962	Excretory system	Organismal Systems	32.67	1	7.5
+Vibrio cholerae infection	ko05110	Infectious disease: bacterial	Human Diseases	1640	289.2	563.49
+Viral carcinogenesis	ko05203	Cancer: overview	Human Diseases	60724.98	52844.93	55098.71
+Viral myocarditis	ko05416	Cardiovascular disease	Human Diseases	33489.5	53618.83	66725.91
+Vitamin B6 metabolism	ko00750	Metabolism of cofactors and vitamins	Metabolism	266032.89	264731.89	241099.15
+Wnt signaling pathway	ko04310	Signal transduction	Environmental Information Processing	593.34	602.67	427.32
+Xylene degradation	ko00622	Xenobiotics biodegradation and metabolism	Metabolism	43255.81	67438.72	81248.83
+Yersinia infection	ko05135	Infectious disease: bacterial	Human Diseases	115.98	55	88
+Zeatin biosynthesis	ko00908	Metabolism of terpenoids and polyketides	Metabolism	56548.01	50352.36	49386.04
+alpha-Linolenic acid metabolism	ko00592	Lipid metabolism	Metabolism	45199.75	85220.67	72150.69
+beta-Alanine metabolism	ko00410	Metabolism of other amino acids	Metabolism	323516.01	448705.75	346142.56
+beta-Lactam resistance	ko01501	Drug resistance: antimicrobial	Human Diseases	478839.79	655913.75	535190.61
+cAMP signaling pathway	ko04024	Signal transduction	Environmental Information Processing	4216.5	2502.83	5324.75
+cGMP-PKG signaling pathway	ko04022	Signal transduction	Environmental Information Processing	678	105.33	1299
+mRNA surveillance pathway	ko03015	Translation	Genetic Information Processing	1232.83	11	192.5
+mTOR signaling pathway	ko04150	Signal transduction	Environmental Information Processing	624	0.1	83
+p53 signaling pathway	ko04115	Cell growth and death	Cellular Processes	33489.5	53618.83	66725.91

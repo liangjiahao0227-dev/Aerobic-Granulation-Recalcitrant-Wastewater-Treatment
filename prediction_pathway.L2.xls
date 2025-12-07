@@ -1,0 +1,47 @@
+Level2	Level1	SS	R1	R2
+Aging	Organismal Systems	593076.22	957645.06	737051.75
+Amino acid metabolism	Metabolism	11037984.16	13660433.82	11721137.14
+Biosynthesis of other secondary metabolites	Metabolism	2245347.57	2538310.77	2250636.19
+Cancer: overview	Human Diseases	750780.82	1010619.15	860833.84
+Cancer: specific types	Human Diseases	226856.24	401501.24	363418.2
+Carbohydrate metabolism	Metabolism	12728366.59	13901588.02	12608582.09
+Cardiovascular disease	Human Diseases	280745.55	443030.49	384773.85
+Cell growth and death	Cellular Processes	1262500.71	1391954.17	1346345.89
+Cell motility	Cellular Processes	1242220.15	1931836.37	1858270.32
+Cellular community - eukaryotes	Cellular Processes	733	106	151
+Cellular community - prokaryotes	Cellular Processes	3287520.12	4365519.08	3964195.95
+Circulatory system	Organismal Systems	40131.4	71709.56	70590.9
+Development and regeneration	Organismal Systems	30623.87	40424.38	42871.8
+Digestive system	Organismal Systems	47798.84	77584.51	71302.97
+Drug resistance: antimicrobial	Human Diseases	1063067.83	1410883.38	1222608.68
+Drug resistance: antineoplastic	Human Diseases	375425.61	564472.09	498356.02
+Endocrine and metabolic disease	Human Diseases	378434.95	402440.16	405364.52
+Endocrine system	Organismal Systems	977332.16	1187732.26	1062460.9
+Energy metabolism	Metabolism	6715386.34	7119471.72	6732795.95
+Environmental adaptation	Organismal Systems	420337.46	531019.35	486737.35
+Excretory system	Organismal Systems	52598.09	68064.89	65032.7
+"Folding, sorting and degradation"	Genetic Information Processing	2060004.5	2053670.47	1990942.93
+Global and overview maps	Metabolism	57034770.75	65719502.15	59209601.23
+Glycan biosynthesis and metabolism	Metabolism	1862233.03	2103528.53	1894948.46
+Immune disease	Human Diseases	35586.56	72716.84	52559.12
+Immune system	Organismal Systems	248537.11	318131.65	285337.7
+Infectious disease: bacterial	Human Diseases	970312.07	1215146.94	1203928.69
+Infectious disease: parasitic	Human Diseases	86459.2	116456.34	124538.44
+Infectious disease: viral	Human Diseases	365401.15	535935.23	656460.4
+Lipid metabolism	Metabolism	3000966.71	4104498.57	3407276.79
+Membrane transport	Environmental Information Processing	3842027.15	5312019.77	4472209.34
+Metabolism of cofactors and vitamins	Metabolism	5949576.22	6892734.8	6342448.31
+Metabolism of other amino acids	Metabolism	2096522.84	2749416.38	2317489.33
+Metabolism of terpenoids and polyketides	Metabolism	1644431.54	1820966.14	1611293.21
+Nervous system	Organismal Systems	236918.89	213878.04	192452.69
+Neurodegenerative disease	Human Diseases	481999.73	828196.57	786813.63
+Nucleotide metabolism	Metabolism	3367532.3	3731485.43	3393522.48
+Replication and repair	Genetic Information Processing	3731284.14	4065808.93	3740272.23
+Sensory system	Organismal Systems	220	181.5	72
+Signal transduction	Environmental Information Processing	3504619.16	4964088.08	4604299.11
+Signaling molecules and interaction	Environmental Information Processing	75	229	139
+Substance dependence	Human Diseases	41358.46	68408.58	49737.34
+Transcription	Genetic Information Processing	197525.61	185829.48	177957.75
+Translation	Genetic Information Processing	4341130.71	4148601.62	3935538
+Transport and catabolism	Cellular Processes	424001.38	602186.3	490835.62
+Xenobiotics biodegradation and metabolism	Metabolism	2270795.53	3730207.25	3059623.1
